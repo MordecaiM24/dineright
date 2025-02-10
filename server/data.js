@@ -1,15 +1,27 @@
-import menu_compact from "../scraper/dining/menu_compact.json" with {type: "json"}
-import menu_full from "../scraper/dining/menu_full.json" with {type: "json"}
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+function loadMenus() {
+  const menu_compact = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "../scraper/dining/menu_compact.json"))
+  );
+  const menu_full = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "../scraper/dining/menu_full.json"))
+  );
+  return { menu_compact, menu_full };
+}
 
 function addMacroPercentages(menu) {
-  return menu.map(hall => ({
+  return menu.map((hall) => ({
     ...hall,
-    menu: hall.menu.map(category => ({
+    menu: hall.menu.map((category) => ({
       ...category,
-      items: category.items.map(item => {
+      items: category.items.map((item) => {
         if (!item.nutrition) return item;
-        
+
         const nutrition = item.nutrition;
         const proteinCals = nutrition.Protein * 4;
         const carbCals = nutrition["Total Carbohydrate"] * 4;
@@ -22,17 +34,34 @@ function addMacroPercentages(menu) {
             ...nutrition,
             proteinPercent: Math.round((proteinCals / totalCals) * 100),
             carbPercent: Math.round((carbCals / totalCals) * 100),
-            fatPercent: Math.round((fatCals / totalCals) * 100)
-          }
+            fatPercent: Math.round((fatCals / totalCals) * 100),
+          },
         };
-      })
-    }))
+      }),
+    })),
   }));
 }
 
-const processed_menu_compact = addMacroPercentages(menu_compact);
-const processed_menu_full = addMacroPercentages(menu_full);
+let processed_menu_compact;
+let processed_menu_full;
 
-console.log(processed_menu_compact);
+function processMenus() {
+  const { menu_compact, menu_full } = loadMenus();
+  processed_menu_compact = addMacroPercentages(menu_compact);
+  processed_menu_full = addMacroPercentages(menu_full);
+}
 
-export { processed_menu_compact as menu_compact, processed_menu_full as menu_full }
+processMenus();
+
+// watch for changes
+fs.watch(path.join(__dirname, "../scraper/dining"), (eventType, filename) => {
+  if (filename === "menu_compact.json" || filename === "menu_full.json") {
+    console.log(`reloading menus due to change in ${filename}`);
+    processMenus();
+  }
+});
+
+export {
+  processed_menu_compact as menu_compact,
+  processed_menu_full as menu_full,
+};
