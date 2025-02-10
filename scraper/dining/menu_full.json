@@ -29,11 +29,7 @@
           },
           {
             "item": "Raisins",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait",
-              "halal_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait", "halal_trait"],
             "nutrition": {
               "Serving Size": "SERVING",
               "Calories": 56.5,
@@ -49,11 +45,7 @@
           },
           {
             "item": "Brown Sugar",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait",
-              "halal_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait", "halal_trait"],
             "nutrition": {
               "Serving Size": "SERVING",
               "Calories": 141.7,
@@ -123,9 +115,7 @@
         "items": [
           {
             "item": "Sausage Link",
-            "dietary_info": [
-              "pork_allergen"
-            ],
+            "dietary_info": ["pork_allergen"],
             "nutrition": {
               "Serving Size": "SERVING (2 links)",
               "Calories": 191.5,
@@ -183,11 +173,7 @@
           },
           {
             "item": "Fresh Curly Kale",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait",
-              "halal_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait", "halal_trait"],
             "nutrition": {
               "Serving Size": "serving",
               "Calories": 5.0,
@@ -695,10 +681,7 @@
           },
           {
             "item": "Blackberries",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait"],
             "nutrition": {
               "Serving Size": "Gram",
               "Calories": 0.4,
@@ -714,10 +697,7 @@
           },
           {
             "item": "Cinnamon Granola",
-            "dietary_info": [
-              "gluten_allergen",
-              "vegetarian_trait"
-            ],
+            "dietary_info": ["gluten_allergen", "vegetarian_trait"],
             "nutrition": {
               "Serving Size": "SERVING (1/2 cup)",
               "Calories": 182.2,
@@ -733,9 +713,7 @@
           },
           {
             "item": "Banana",
-            "dietary_info": [
-              "wolf_approved_trait"
-            ],
+            "dietary_info": ["wolf_approved_trait"],
             "nutrition": {
               "Serving Size": "SERVING",
               "Calories": 73.0,
@@ -808,10 +786,7 @@
         "items": [
           {
             "item": "Turkey Sausage Links",
-            "dietary_info": [
-              "soy_allergen",
-              "wolf_approved_trait"
-            ],
+            "dietary_info": ["soy_allergen", "wolf_approved_trait"],
             "nutrition": {
               "Serving Size": "SERVING (2 links)",
               "Calories": 101.5,
@@ -827,11 +802,7 @@
           },
           {
             "item": "Tater Tots",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait",
-              "halal_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait", "halal_trait"],
             "nutrition": {
               "Serving Size": "SERVING (1/2 cup)",
               "Calories": 232.9,
@@ -994,10 +965,7 @@
           },
           {
             "item": "Country Smoked Ham",
-            "dietary_info": [
-              "pork_allergen",
-              "wolf_approved_trait"
-            ],
+            "dietary_info": ["pork_allergen", "wolf_approved_trait"],
             "nutrition": {
               "Serving Size": "SERVING (1 slice)",
               "Calories": 110.0,
@@ -1106,10 +1074,7 @@
           },
           {
             "item": "Scrambled eggs w/ cheese, peppers, onion",
-            "dietary_info": [
-              "dairy_allergen",
-              "egg_allergen"
-            ],
+            "dietary_info": ["dairy_allergen", "egg_allergen"],
             "nutrition": {
               "Serving Size": "SERVING",
               "Calories": 311.1,
@@ -1125,11 +1090,7 @@
           },
           {
             "item": "Cilantro Lime Rice",
-            "dietary_info": [
-              "vegetarian_trait",
-              "vegan_trait",
-              "halal_trait"
-            ],
+            "dietary_info": ["vegetarian_trait", "vegan_trait", "halal_trait"],
             "nutrition": {
               "Serving Size": "SERVING (1/2 cup)",
               "Calories": 199.4,
@@ -1187,10 +1148,7 @@
           },
           {
             "item": "Boom Boom Sauce",
-            "dietary_info": [
-              "egg_allergen",
-              "vegetarian_trait"
-            ],
+            "dietary_info": ["egg_allergen", "vegetarian_trait"],
             "nutrition": {
               "Serving Size": "Serving (2 TB)",
               "Calories": 178.2,
@@ -1231,10 +1189,7 @@
           },
           {
             "item": "Plain Greek Yogurt",
-            "dietary_info": [
-              "dairy_allergen",
-              "vegetarian_trait"
-            ],
+            "dietary_info": ["dairy_allergen", "vegetarian_trait"],
             "nutrition": {
               "Serving Size": "Ounce",
               "Calories": 17.0,
@@ -1312,10 +1267,7 @@
           },
           {
             "item": "Blueberry Muffins",
-            "dietary_info": [
-              "gluten_allergen",
-              "egg_allergen"
-            ],
+            "dietary_info": ["gluten_allergen", "egg_allergen"],
             "nutrition": {
               "Serving Size": "Each",
               "Calories": 175.6,
@@ -1467,9 +1419,7 @@
           },
           {
             "item": "Sausage Link",
-            "dietary_info": [
-              "pork_allergen"
-            ],
+            "dietary_info": ["pork_allergen"],
             "nutrition": {
               "Serving Size": "SERVING (2 links)",
               "Calories": 191.5,
