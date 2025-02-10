@@ -1,0 +1,1579 @@
+[
+  {
+    "hall": "Fountain",
+    "menu": [
+      {
+        "category": "Display",
+        "items": [
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7,
+              "ingredients": "Oatmeal, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Cinnamon, Water"
+            }
+          },
+          {
+            "item": "Raisins",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 56.5,
+              "Protein": 0.6,
+              "Total Carbohydrate": 14.9,
+              "Total Fat": 0.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 2.1,
+              "ingredients": "Raisins"
+            }
+          },
+          {
+            "item": "Brown Sugar",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 141.7,
+              "Protein": 0.0,
+              "Total Carbohydrate": 37.8,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 0.0,
+              "ingredients": "Brown Sugar (Sugar, Molasses)"
+            }
+          },
+          {
+            "item": "Baked Apples",
+            "dietary_info": [
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(1/2 cup)",
+              "Calories": 139.2,
+              "Protein": 1.0,
+              "Total Carbohydrate": 27.7,
+              "Total Fat": 3.7,
+              "Saturated Fat": 1.7,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 40.4,
+              "ingredients": "Sliced Apples (APPLES, WATER), Brown Sugar (Sugar, Molasses), Margarine (Vegetable Oil Blend (Palm Oil, Soybean Oil), Water, Contains 2% or Less of: Salt, Soybean Lecithin (Soy), Vegetable Monoglycerides, CitricAcid (Preservative), Beta Carotene (Color), Natural Flavor and Vitamin A Palmitate added. Contains: Soy.), Cinnamon"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Deli",
+        "items": [
+          {
+            "item": "Avocado Toast Station",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "seafood_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (BYO)",
+              "Calories": 336.5,
+              "Protein": 17.3,
+              "Total Carbohydrate": 31.7,
+              "Total Fat": 18.2,
+              "Saturated Fat": 5.3,
+              "Trans Fat": 0.0,
+              "Fiber": 5.6,
+              "Sodium": 649.3,
+              "ingredients": "Avocado (Hass Avocados, Contains 2% or less of Salt, Sugar, Citric Acid, Erythorbic Acid), Hard Boiled Eggs, Neomonde Wheat Bread  (Enriched Unbleached Unbromated Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Whole Wheat Flour, Vegetable Shortening (Partially Hydrogenated Soybean, Cottonseed, And/Or Canola Oils), Wheat Gluten, Wheat Bran, Salt, Sugar, Yeast, Dextrose, Calcium Propionate, Soy Flour, Diacetyl Tartaric Acid Esters Of Mono Diglycerides (Datem), Mono-Diglycerides, Potassium Bromate, Ascorbic Acid, Enzyme, Azodicarbonamide (Ada), L. Cysteine), Neomonde White Bread  (Enriched Unbleached Unbromated Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Wheat Flour, Yeast, Soybean Oil, Salt, Diacetyl Tartaric Acid Esters Of Mono-Diglycerides [Datem], Sodim Stearoyl Lactylate (Ssl), L-Cysteine, Potassium Bromate, Ascorbic Acid, Azodicarbonamide (Ada), Enzymes, Sugar, Wheat Gluten, Mono-And Diglycerides, Calcium Propionate, Fumaric Acid, Malted Barley Flour, Malt, Acetic Acid, Lactic Acid.), Smoked Salmon (Atlantic Salmon, Salt, Brown Sugar, Astaxanthin), Neomonde Multigrain Bread  (Unbleached And Unbromated Wheat Flour, Salt, Soybean Oil, Wheat, Sunflower Seed, Flax Seed, Millet, Oats, Dextrose, Sugar, Yeast, Sorbitan Monostearate, Corn Starch, Calcium Propionate, Diacetyl Tartaric Acid Esters Of Mono-Diglycerides (Datem), Potassium Bromate, Ascorbic Acid (Vitamin C), Enzymes, Azodicarbonamide (Ada), L-Cysteine), Crumbled Goat Cheese (Pasteurized Goat Milk, Cheese Culture, Salt, Enzymes, Powdered Cellulose, Natamycin), Feta Cheese (Feta Cheese (Cultured Pasteurized Part-Skim Milk, Salt, Enzymes), Potato Starch and Powdered Cellulose, Natamycin.), Bacon Bits (BACON CURED WITH: WATER, SALT, SODIUM PHOPSHATES, SODIUM ERYTHORBATE, SODIUM NITRITE. MAY CONTAIN: SUGAR, DEXTROSE, BROWN SUGAR, SMOKE FLAVORING, POTASSIUM CHLORIDE, SEASONING FLAVORING, MAY CONTAIN SALT, DEXTROSE OR CORN SYRUP, FLAVORING.), Honey, Radish, Red Onion , Grape Tomato, Blended Olive Oil (Olive and Canola Oils), Capers ( CAPERS, WATER, SALT AND WINE VINEGAR ), Jalapeno Pepper, Tomato, Sugar, Balsamic Vinegar (WINE VINEGAR, CONCENTRATED AND COOKED GRAPE, CARAMEL COLOR), Yellow Onion , Cilantro , Garlic Powder, Jalapeno Pepper (JALAPENO PEPPERS, WATER, VINEGAR, SALT, CALCIUM CHLORIDE AND GARLIC)"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Sausage Link",
+            "dietary_info": [
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 191.5,
+              "Protein": 6.0,
+              "Total Carbohydrate": 0.3,
+              "Total Fat": 18.1,
+              "Saturated Fat": 6.0,
+              "Trans Fat": 0.2,
+              "Fiber": 0.1,
+              "Sodium": 393.1,
+              "ingredients": "Sausage  (PORK, WATER. CONTAINS 2% OR LESS: SALT, SPICES, SODIUM PHOSPHATES, DEXTROSE, MONOSODIUM GLUTAMATE, CARAMEL COLOR, BEEF COLLAGEN CASINGS.)"
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2,
+              "ingredients": "Water, White Gravy (Enriched Bleached Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Maltodextrin, Food Starch-Modified, Palm Oil, Salt, Corn Syrup Solids, Contains Less Than 2%: Chicken, Chicken Fat, Rendered Bacon Fat, Spices, Garlic Powder, Sugar, Nonfat Milk, Whey (Milk), Whey Protein Concentrate (Milk), Natural Flavors, Turmeric, Autolyzed Yeast Extract, Hydrolyzed Vegetable Protein (Corn, Soy, And/Or Wheat), Monosodium Glutamate, Sodium Caseinate (Milk), Mono And Diglycerides, Soy Flour, Disodium Guanylate, Disodium Inosinate, Color Added. Contains: Wheat, Milk, Soy Processed In A Facility That Processes Egg), Sausage Patty (PORK, WATER, SALT, POTASSIUM CHLORIDE, DEXTROSE, SPICES, MONOSODIUM GLUTAMATE, SODIUM PHOSPHATES, BHT, CITRIC ACID, CARAMEL COLOR.), Paprika, Black Pepper"
+            }
+          },
+          {
+            "item": "Homestyle Grits",
+            "dietary_info": [
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 133.3,
+              "Protein": 2.3,
+              "Total Carbohydrate": 19.6,
+              "Total Fat": 4.9,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 110.7,
+              "ingredients": "Grits (DRIED CORN), Margarine (Vegetable Oil Blend (Palm Oil, Soybean Oil), Water, Contains 2% or Less of: Salt, Soybean Lecithin (Soy), Vegetable Monoglycerides, CitricAcid (Preservative), Beta Carotene (Color), Natural Flavor and Vitamin A Palmitate added. Contains: Soy.), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Water"
+            }
+          },
+          {
+            "item": "Fresh Curly Kale",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "serving",
+              "Calories": 5.0,
+              "Protein": 0.3,
+              "Total Carbohydrate": 0.7,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.3,
+              "Sodium": 30.5,
+              "ingredients": "Curly Kale, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Black Pepper"
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9,
+              "ingredients": "Biscuit (ENRICHED FLOUR BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, WATER, SOYBEAN OIL, PALM OIL, BUTTERMILK, SUGAR, HYDROGENATED SOYBEAN OIL, SALT, BAKING SODA, SODIUM ALUMINUM PHOSPHATE, SODIUM ACID PYROPHOSPHATE, NATURAL AND ARTIFICIAL FLAVOR. CONTAINS WHEAT AND MILK INGREDIENTS.)"
+            }
+          },
+          {
+            "item": "Apple Turnover",
+            "dietary_info": [
+              "gluten_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(2 EA)",
+              "Calories": 248.6,
+              "Protein": 3.6,
+              "Total Carbohydrate": 29.2,
+              "Total Fat": 13.5,
+              "Saturated Fat": 7.2,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 333.8,
+              "ingredients": "Mini Apple Turnover (UNBLEACHED ENRICHED WHEAT FLOUR (FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE [VITAMIN B1], RIBOFLAVIN [VITAMIN B2], FOLIC ACID), APPLES, WATER, VEGETABLE OILS (PALM, SOYBEAN, HYDROGENATED COTTONSEED), SUGAR, HIGH FRUCTOSE CORN SYRUP, CONTAINS 2 PERCENT OR LESS OF: MODIFIED CORNSTARCH, SALT, MONO AND DIGLYCERIDES, CINNAMON, SOY LECITHIN, MALTED BARLEY FLOUR, TURMERIC AND ANNATTO EXTRACTS FOR COLOR.), Confection Sugar (SUGAR, CORNSTARCH)"
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Canola Oil"
+            }
+          },
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9,
+              "ingredients": "Egg"
+            }
+          },
+          {
+            "item": "Crispy Potato Bites",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.4,
+              "Protein": 2.3,
+              "Total Carbohydrate": 24.6,
+              "Total Fat": 14.0,
+              "Saturated Fat": 1.9,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 457.6,
+              "ingredients": "Crispy Potato Cubes (POTATOES, VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWING: SOYBEAN OIL, CANOLA OIL), ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MODIFIED CORN STARCH, RICE FLOUR, YELLOW CORN MEAL, SALT, GARLIC POWDER, ONION POWDER, SPICES, FLAVOR (CONTAINS AUOLYZED YEAST EXTRACT, DRIED TORULA YEAST, THIAMINE HYDROCHLORIDE, CORN SYRUP SOLIDS), DEHYDRATED PARSLEY, GUAR GUM, DISODIUM DIHYDROGEN PYROPHOSPHATE TO PROMOTE COLOR RETENTION, AND DEXTROSE.), Shortening (Soybean Oil, TBHQ, Dimethylpolysiloxane)"
+            }
+          },
+          {
+            "item": "Chicken Sausage Patty",
+            "dietary_info": [],
+            "nutrition": {
+              "Serving Size": "SERVING (2EA)",
+              "Calories": 150.3,
+              "Protein": 13.2,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 11.3,
+              "Saturated Fat": 3.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 526.1,
+              "ingredients": "Sausage Chicken Patty (CHICKEN, WATER, SALT, SPICES, DEXTROSE, FLAVORING, TURBINADO SUGAR, LIME JUICE CONCENTRATE.)"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Vanilla Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 98.7,
+              "Protein": 4.9,
+              "Total Carbohydrate": 16.8,
+              "Total Fat": 1.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 69.1,
+              "ingredients": "Vanilla Yogurt  (CULTURED GRADE A REDUCED FAT MILK, SUGAR, NATURAL VANILLA FLAVOR, PECTIN. CONTAINS ACTIVE YOGURT CULTURES INCLUDING L.ACIDOPHILUS.)"
+            }
+          },
+          {
+            "item": "Sliced Peaches",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 cup",
+              "Calories": 50.9,
+              "Protein": 0.0,
+              "Total Carbohydrate": 13.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.7,
+              "Sodium": 0.0,
+              "ingredients": "Peaches (PEACHES, WATER, SUGAR)"
+            }
+          },
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3,
+              "ingredients": "Strawberry Yogurt  (CULTURED GRADE A NON FAT MILK, CANE SUGAR, WATER, MODIFIED FOOD STARCH, CONTAINS LESS THAN 1 OF NATURAL FLAVORS, AGAR AGAR, BETA CAROTENE AND BLACK CARROT JUICE CONCENTRATE FOR COLOR, MALIC ACID, POTASSIUM SORBATE TO MAINTAIN FRESHNESS, SODIUM CITRATE. VITAMIN D3. CONTAINS ACTIVE YOGURT CULTURES)"
+            }
+          },
+          {
+            "item": "Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0,
+              "ingredients": "Cinnamon Granola (Whole Grain Rolled Oats, Sugar, Rice, Canola Oil, Whole Grain Wheat, Rice Syrip, Molasses, Honey, Cinnamon, Salt, BHT added to packaging material to preserve freshness. Contains Wheat.)"
+            }
+          },
+          {
+            "item": "Fresh Honeydew",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 31.7,
+              "Protein": 0.6,
+              "Total Carbohydrate": 7.6,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 19.0,
+              "ingredients": "Honeydew"
+            }
+          },
+          {
+            "item": "Fresh Strawberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 oz)",
+              "Calories": 19.3,
+              "Protein": 0.4,
+              "Total Carbohydrate": 4.2,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 0.0,
+              "ingredients": "Strawberries"
+            }
+          },
+          {
+            "item": "Fresh Cut Grapefruit",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 grapefruit",
+              "Calories": 60.5,
+              "Protein": 1.2,
+              "Total Carbohydrate": 15.1,
+              "Total Fat": 0.2,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.0,
+              "ingredients": "Grapefruit  (GRAPEFRUIT), CHERRY WHOLE (CHERRIES, WATER, CORN SYRUP, SUGAR, CITRIC ACID, NATURAL & ARTIFICIAL FLAVORS, SODIUM BENZOATE, POTASSIUM SORBATE, FD&C RED #40, SULFUR DIOXIDE )"
+            }
+          },
+          {
+            "item": "Fresh Cantaloupe",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 CUP)",
+              "Calories": 31.5,
+              "Protein": 0.6,
+              "Total Carbohydrate": 7.6,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 12.7,
+              "ingredients": "Cantaloupe"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Grill Stations",
+        "items": [
+          {
+            "item": "Vegan Breakfast Sausage",
+            "dietary_info": [
+              "nuts_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 PATTIES)",
+              "Calories": 200.0,
+              "Protein": 12.0,
+              "Total Carbohydrate": 8.0,
+              "Total Fat": 14.0,
+              "Saturated Fat": 5.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 620.0,
+              "ingredients": "Impossible Sausage (Water, Soy Protein Concentrate, Sunflower Oil, Coconut Oil, 2% Or Less Of: Methylcellulose, Natural Flavors, Salt, Yeast Extract, Cultured Dextrose, Food Starch Modified, Citric Acid, Soy Leghemoglobin, Mixed Tocopherols Antioxidant, Soy Protein Isolate, Spices, Onion Powder, Garlic Powder, Zinc Gluconate, Niacin, Pyridoxine Hydrochloride Vitamin B6, Riboflavin Vitamin B2, Vitamin B12)"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelets Made to Order",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.9,
+              "Protein": 22.9,
+              "Total Carbohydrate": 4.6,
+              "Total Fat": 32.0,
+              "Saturated Fat": 7.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 707.3,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Mushrooms (MUSHROOMS, WATER, SALT, CITRIC ACID, AND ASCORBIC ACID.), Canola Oil, Diced Turkey (Turkey, Salt, Dextrose, Brown Sugar, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Shredded Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added, Potato Starch and Powdered Cellulose, Natamycin ), Bacon Bits (BACON CURED WITH: WATER, SALT, SODIUM PHOPSHATES, SODIUM ERYTHORBATE, SODIUM NITRITE. MAY CONTAIN: SUGAR, DEXTROSE, BROWN SUGAR, SMOKE FLAVORING, POTASSIUM CHLORIDE, SEASONING FLAVORING, MAY CONTAIN SALT, DEXTROSE OR CORN SYRUP, FLAVORING.), Green Peppers, Yellow Onion , Tomato, Vegan Chorizo (ORGANIC TEXTURED SOY PROTEIN (SOY FLOUR), ORGANIC SOYBEAN OIL, ORGANIC DISTILLED VINEGAR, ORGANIC SEASONING(ORGANIC CHILE PEPPER, ORGANIC SPICES, SALT, ORGANIC PAPRIKA, ORGANIC DEXTROSE, ORGANIC ANCHO CHILE POWDER, ORGANIC ONION POWDER, ORGANIC GARLIC POWDER, SEA SALT, NATURAL EXTRACTIVES OF PAPRIKA), SALT, ORGANIC CARAMEL COLOR, NATURAL EXTRACTIVES OF PAPRIKA (FOR COLOR).), Water"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hall": "University Towers",
+    "menu": [
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Orange",
+            "dietary_info": [],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 79.0,
+              "Protein": 1.0,
+              "Total Carbohydrate": 18.8,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 3.0,
+              "Sodium": 0.0,
+              "ingredients": ""
+            }
+          },
+          {
+            "item": "Tropical Pineapple",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 44.5,
+              "Protein": 0.0,
+              "Total Carbohydrate": 11.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 5.6,
+              "ingredients": "Pineapple (PINEAPPLE, PINEAPPLE JUICE AND CITRIC ACID.)"
+            }
+          },
+          {
+            "item": "Vanilla Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 98.7,
+              "Protein": 4.9,
+              "Total Carbohydrate": 16.8,
+              "Total Fat": 1.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 69.1,
+              "ingredients": "Vanilla Yogurt  (CULTURED GRADE A REDUCED FAT MILK, SUGAR, NATURAL VANILLA FLAVOR, PECTIN. CONTAINS ACTIVE YOGURT CULTURES INCLUDING L.ACIDOPHILUS.)"
+            }
+          },
+          {
+            "item": "Fresh Strawberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 oz)",
+              "Calories": 19.3,
+              "Protein": 0.4,
+              "Total Carbohydrate": 4.2,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 0.0,
+              "ingredients": "Strawberries"
+            }
+          },
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3,
+              "ingredients": "Strawberry Yogurt  (CULTURED GRADE A NON FAT MILK, CANE SUGAR, WATER, MODIFIED FOOD STARCH, CONTAINS LESS THAN 1 OF NATURAL FLAVORS, AGAR AGAR, BETA CAROTENE AND BLACK CARROT JUICE CONCENTRATE FOR COLOR, MALIC ACID, POTASSIUM SORBATE TO MAINTAIN FRESHNESS, SODIUM CITRATE. VITAMIN D3. CONTAINS ACTIVE YOGURT CULTURES)"
+            }
+          },
+          {
+            "item": "Orange Wedges",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 WEDGES)",
+              "Calories": 26.3,
+              "Protein": 0.3,
+              "Total Carbohydrate": 6.3,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 0.0,
+              "ingredients": "Orange"
+            }
+          },
+          {
+            "item": "Fresh Cut Grapefruit",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 grapefruit",
+              "Calories": 60.5,
+              "Protein": 1.2,
+              "Total Carbohydrate": 15.1,
+              "Total Fat": 0.2,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.0,
+              "ingredients": "Grapefruit  (GRAPEFRUIT), CHERRY WHOLE (CHERRIES, WATER, CORN SYRUP, SUGAR, CITRIC ACID, NATURAL & ARTIFICIAL FLAVORS, SODIUM BENZOATE, POTASSIUM SORBATE, FD&C RED #40, SULFUR DIOXIDE )"
+            }
+          },
+          {
+            "item": "Blackberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Gram",
+              "Calories": 0.4,
+              "Protein": 0.0,
+              "Total Carbohydrate": 0.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 0.0,
+              "ingredients": ""
+            }
+          },
+          {
+            "item": "Cinnamon Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0,
+              "ingredients": "Whole Grain Rolled Oats, Sugar, Rice, Canola Oil, Whole Grain Wheat, Rice Syrip, Molasses, Honey, Cinnamon, Salt, BHT added to packaging material to preserve freshness. Contains Wheat."
+            }
+          },
+          {
+            "item": "Banana",
+            "dietary_info": [
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 73.0,
+              "Protein": 0.9,
+              "Total Carbohydrate": 18.7,
+              "Total Fat": 0.3,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.8,
+              "ingredients": "Banana (BANANA)"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Dessert",
+        "items": [
+          {
+            "item": "Blueberry Muffin",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 muffin)",
+              "Calories": 250.5,
+              "Protein": 3.1,
+              "Total Carbohydrate": 37.6,
+              "Total Fat": 9.3,
+              "Saturated Fat": 3.4,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 160.1,
+              "ingredients": "Baker's Flour (ENRICHED FLOUR BLEACHED WHEAT FLOUR), Sugar, Whole Milk (MILK, VITAMIN D3.), Blueberries, Eggs (WHOLE EGGS, CITRIC ACID), Unsalted Butter (PASTEURIZED CREAM, NATURAL FLAVORINGS), Canola Oil, Brown Sugar (Sugar, Molasses), All-Purpose Flour (Bleached wheat flour, malted barley flour), Rolled Oats, BAKING POWDER (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, CORN STARCH, MONOCALCIUM PHOSPHATE. ), Lemon Zest Puree (Chopped Lemon Peels, Cane Sugar, Natural Lemon Flavor), Salt (SALT, SODIUM SILICOALUMINATE, DEXTROSE, POTASSIUM IODIDE), Vanilla Extract (ALCOHOL, CORN SYRUP, VANILLA BEAN EXTRACT. ), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA )"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelette Station",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.6,
+              "Protein": 23.1,
+              "Total Carbohydrate": 4.3,
+              "Total Fat": 31.8,
+              "Saturated Fat": 7.3,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 462.6,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Mushrooms, Canola Oil, Diced Ham (Cured With: Water, Dextrose, Contains 2% or Less of Salt, Potassium Lactate, Sodium Lactate, Sodium Phosphates, Sodium Diacetate, Sodium Erythorbate, Sodium Nitrite.), Monterey Jack & Cheddar Cheese (CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATTO COLOR), MONTEREY JACK CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POTATO STARCH AND POWDERED CELLULOSE, NATAMYCIN), Italian Sausage (PORK, WATER, TEXTURED VEGETABLE PROTEIN (SOY FLOUR, SALT), SPICES, SALT, SUGAR, FLAVORING. ), Tomatoes, Yellow Onion , Chicken (FULLY COOKED 1/2\" DICED CHICKEN WHITE MEAT), Spinach, Vegan Chorizo (ORGANIC TEXTURED SOY PROTEIN (SOY FLOUR), ORGANIC SOYBEAN OIL, ORGANIC DISTILLED VINEGAR, ORGANIC SEASONING(ORGANIC CHILE PEPPER, ORGANIC SPICES, SALT, ORGANIC PAPRIKA, ORGANIC DEXTROSE, ORGANIC ANCHO CHILE POWDER, ORGANIC ONION POWDER, ORGANIC GARLIC POWDER, SEA SALT, NATURAL EXTRACTIVES OF PAPRIKA), SALT, ORGANIC CARAMEL COLOR, NATURAL EXTRACTIVES OF PAPRIKA (FOR COLOR).), Water"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Turkey Sausage Links",
+            "dietary_info": [
+              "soy_allergen",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 101.5,
+              "Protein": 8.1,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 7.1,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 303.7,
+              "ingredients": "Turkey Sausage (Turkey, Water, Textured Vegetable Protein Product Soy Protein Concentrate, Zinc Oxide, Niacinamide, Ferrous Sulfate, Copper Gluconate, Vitamin A Palmitate, Calcium Pantothenate, Thiamine Mononitrate [B1], Pyridoxine Hydrochloride [B6], Riboflavin [B2], And Cyanocobalamin [B12], Salt, Corn Syrup Solids, Spices, Hydrolyzed Soy Protein, Flavoring, Citric Acid, BHA.)"
+            }
+          },
+          {
+            "item": "Tater Tots",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.9,
+              "Protein": 1.8,
+              "Total Carbohydrate": 17.1,
+              "Total Fat": 17.4,
+              "Saturated Fat": 2.7,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 207.0,
+              "ingredients": "Tater Tots (POTATOES, VEGETABLE OIL SOYBEAN, CANOLA, COTTONSEED, AND/OR SUNFLOWER, CONTAINS LESS THAN 2 OF DEXTROSE, SEA SALT, DISODIUM DIHYDROGEN PYROPHOSPHATE), Shortening (Soybean Oil, TBHQ, Dimethylpolysiloxane)"
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2,
+              "ingredients": "Water, White Gravy (Enriched Bleached Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Maltodextrin, Food Starch-Modified, Palm Oil, Salt, Corn Syrup Solids, Contains Less Than 2%: Chicken, Chicken Fat, Rendered Bacon Fat, Spices, Garlic Powder, Sugar, Nonfat Milk, Whey (Milk), Whey Protein Concentrate (Milk), Natural Flavors, Turmeric, Autolyzed Yeast Extract, Hydrolyzed Vegetable Protein (Corn, Soy, And/Or Wheat), Monosodium Glutamate, Sodium Caseinate (Milk), Mono And Diglycerides, Soy Flour, Disodium Guanylate, Disodium Inosinate, Color Added. Contains: Wheat, Milk, Soy Processed In A Facility That Processes Egg), Sausage Patty (PORK, WATER, SALT, POTASSIUM CHLORIDE, DEXTROSE, SPICES, MONOSODIUM GLUTAMATE, SODIUM PHOSPHATES, BHT, CITRIC ACID, CARAMEL COLOR.), Paprika, Black Pepper"
+            }
+          },
+          {
+            "item": "Quiche Lorraine",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 384.5,
+              "Protein": 24.3,
+              "Total Carbohydrate": 10.0,
+              "Total Fat": 27.0,
+              "Saturated Fat": 11.2,
+              "Trans Fat": 0.1,
+              "Fiber": 0.3,
+              "Sodium": 792.6,
+              "ingredients": "Quiche (Eggs, Whey, Cream, Skim Milk, Powdered Whey, Powdered Baker's Cheese, Salt, Carrageenan, Carbohydrate Gum, Natural Flavor, Lactic Acid, Xanthan Gum, Guar Gum, Parsley, Spice, Locust Bean Gum, Soy Lecithin. ), Eggs (WHOLE EGGS, CITRIC ACID), Low Fat Swiss Cheese  (PART-SKIM MILK, SALT, SODIUM-PHOSPHATE, SODIUM CITRATE, SORBIC ACID, MILKFAT, ENZYMES, CHEESE CULTURE  ), Yellow Onion, Bacon Bits (BACON CURED WITH: WATER, SALT, SODIUM PHOPSHATES, SODIUM ERYTHORBATE, SODIUM NITRITE. MAY CONTAIN: SUGAR, DEXTROSE, BROWN SUGAR, SMOKE FLAVORING, POTASSIUM CHLORIDE, SEASONING FLAVORING, MAY CONTAIN SALT, DEXTROSE OR CORN SYRUP, FLAVORING.), Margarine (Vegetable Oil Blend (Palm Oil, Soybean Oil), Water, Contains 2% or Less of: Salt, Soybean Lecithin (Soy), Vegetable Monoglycerides, CitricAcid (Preservative), Beta Carotene (Color), Natural Flavor and Vitamin A Palmitate added. Contains: Soy.), Pan Spray (Soybean Oil, Canola Oil, Capric/Caprylic Triglycerides, Phosphated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Propellant)"
+            }
+          },
+          {
+            "item": "Garlic Kale",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 33.8,
+              "Protein": 0.6,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 2.9,
+              "Saturated Fat": 0.2,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 146.4,
+              "ingredients": "Kale, Canola Oil, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Garlic, Blended Olive Oil (Olive and Canola Oils), Black Pepper"
+            }
+          },
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9,
+              "ingredients": "Egg"
+            }
+          },
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7,
+              "ingredients": "Oatmeal, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Cinnamon, Water"
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Canola Oil"
+            }
+          },
+          {
+            "item": "French Toast",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(1.5ea)",
+              "Calories": 221.3,
+              "Protein": 8.3,
+              "Total Carbohydrate": 33.2,
+              "Total Fat": 6.5,
+              "Saturated Fat": 1.4,
+              "Trans Fat": 0.5,
+              "Fiber": 1.8,
+              "Sodium": 295.0,
+              "ingredients": "French Toast (INGREDIENTS: BREAD [ENRICHED FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMIN MONONITRATE (VITAMIN B1), RIBOFLAVIN (VITAMIN B2), FOLIC ACID), WATER, HIGH FRUCTOSE CORN SYRUP, YEAST, SOYBEAN OIL, WHEAT GLUTEN, SALT, BROWN SUGAR, SPICE, ARTIFICIAL FLAVOR, CINNAMON, POLYSORBATE 80, COLORED WITH (TURMERIC, YELLOW 5 LAKE, RED 40 LAKE, BLUE 1 LAKE), DOUGH CONDITIONERS (MONO- AND DIGLYCERIDES, ETHOXYLATED MONO- AND DIGLYCERIDES, CALCIUM PEROXIDE), YEAST NUTRIENTS (MONOCALCIUM PHOSPHATE, CALCIUM SULFATE, AMMONIUM SULFATE), CALCIUM PROPIONATE (PRESERVATIVE), CORNSTARCH], EGGS, WATER, REDUCED FAT MILK, HIGH FRUCTOSE CORN SYRUP. CONTAINS 2% OR LESS OF: VEGETABLE SHORTENING (PARTIALLY HYDROGENATED SOYBEAN OIL, ARTIFICIAL FLAVOR, BETA CAROTENE [COLOR]). CONTAINS: WHEAT, EGGS AND MILK.)"
+            }
+          },
+          {
+            "item": "Country Smoked Ham",
+            "dietary_info": [
+              "pork_allergen",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 slice)",
+              "Calories": 110.0,
+              "Protein": 14.0,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 7.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 1275.0,
+              "ingredients": "Country Sliced Ham  (Cured Country Ham, Salt, White Sugar, Brown Sugar, Sodium Nitrate, Pepper, Sodium Nitrite.)"
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9,
+              "ingredients": "Biscuit (ENRICHED FLOUR BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, WATER, SOYBEAN OIL, PALM OIL, BUTTERMILK, SUGAR, HYDROGENATED SOYBEAN OIL, SALT, BAKING SODA, SODIUM ALUMINUM PHOSPHATE, SODIUM ACID PYROPHOSPHATE, NATURAL AND ARTIFICIAL FLAVOR. CONTAINS WHEAT AND MILK INGREDIENTS.)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hall": "Clark",
+    "menu": [
+      {
+        "category": "Bowls",
+        "items": [
+          {
+            "item": "Vegan Breakfast Sausage",
+            "dietary_info": [
+              "nuts_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 PATTIES)",
+              "Calories": 200.0,
+              "Protein": 12.0,
+              "Total Carbohydrate": 8.0,
+              "Total Fat": 14.0,
+              "Saturated Fat": 5.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 620.0,
+              "ingredients": "Impossible Sausage (Water, Soy Protein Concentrate, Sunflower Oil, Coconut Oil, 2% Or Less Of: Methylcellulose, Natural Flavors, Salt, Yeast Extract, Cultured Dextrose, Food Starch Modified, Citric Acid, Soy Leghemoglobin, Mixed Tocopherols Antioxidant, Soy Protein Isolate, Spices, Onion Powder, Garlic Powder, Zinc Gluconate, Niacin, Pyridoxine Hydrochloride Vitamin B6, Riboflavin Vitamin B2, Vitamin B12)"
+            }
+          },
+          {
+            "item": "White Quinoa",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (4 oz)",
+              "Calories": 102.2,
+              "Protein": 3.7,
+              "Total Carbohydrate": 18.3,
+              "Total Fat": 1.6,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 175.1,
+              "ingredients": "Quinoa (White Quinoa), Water, Vegetable Base (Reconstituted Vegetable Juice Blend Water And Concentrated Juices of Carrot, Celery, Tomato, Maltodextrin, Salt, Sugar, Onion Juice Concentrate, Yeast Extract, Cabbage Juice, Garlic Powder, Mushroom Extract, Spice, Natural Flavor.), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Black Pepper"
+            }
+          },
+          {
+            "item": "Fresh Broccoli",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (3.5 oz)",
+              "Calories": 30.2,
+              "Protein": 2.7,
+              "Total Carbohydrate": 5.4,
+              "Total Fat": 0.3,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 287.7,
+              "ingredients": "Broccoli, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Black Pepper"
+            }
+          },
+          {
+            "item": "Scrambled eggs w/ cheese, peppers, onion",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 311.1,
+              "Protein": 20.4,
+              "Total Carbohydrate": 5.7,
+              "Total Fat": 22.8,
+              "Saturated Fat": 6.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 429.9,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Yellow Onion, Green Pepper, Shredded Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added, Potato Starch and Powdered Cellulose, Natamycin ), Canola Oil, Pan Spray (Soybean Oil, Canola Oil, Capric/Caprylic Triglycerides, Phosphated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Propellant), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), White Pepper, Parsley"
+            }
+          },
+          {
+            "item": "Cilantro Lime Rice",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 199.4,
+              "Protein": 4.6,
+              "Total Carbohydrate": 42.5,
+              "Total Fat": 0.6,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.5,
+              "Sodium": 906.9,
+              "ingredients": "Basmati Rice (Basmati Rice), Water, Lime Juice, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Cilantro , Lime (LIME), Vegetable Base (Reconstituted Vegetable Juice Blend Water And Concentrated Juices of Carrot, Celery, Tomato, Maltodextrin, Salt, Sugar, Onion Juice Concentrate, Yeast Extract, Cabbage Juice, Garlic Powder, Mushroom Extract, Spice, Natural Flavor.)"
+            }
+          },
+          {
+            "item": "Cumin Black Beans",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 50.2,
+              "Protein": 2.4,
+              "Total Carbohydrate": 7.1,
+              "Total Fat": 1.4,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 174.6,
+              "ingredients": "Black Beans (Black Beans, Salt, Calcium Chloride Firming Agent), Water, Yellow Onion, Canola Oil, Vegetable Base (Reconstituted Vegetable Juice Blend Water And Concentrated Juices of Carrot, Celery, Tomato, Maltodextrin, Salt, Sugar, Onion Juice Concentrate, Yeast Extract, Cabbage Juice, Garlic Powder, Mushroom Extract, Spice, Natural Flavor.), Cumin"
+            }
+          },
+          {
+            "item": "Butternut Squash",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 61.2,
+              "Protein": 0.4,
+              "Total Carbohydrate": 5.6,
+              "Total Fat": 4.5,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 26.6,
+              "ingredients": "Butternut Squash, Blended Olive Oil (Olive and Canola Oils), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Black Pepper"
+            }
+          },
+          {
+            "item": "Boom Boom Sauce",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 TB)",
+              "Calories": 178.2,
+              "Protein": 0.0,
+              "Total Carbohydrate": 2.2,
+              "Total Fat": 18.9,
+              "Saturated Fat": 2.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 300.7,
+              "ingredients": "SOYBEAN OIL, WATER, VINEGAR, SUGAR, EGG YOLK, AGED CAYENNE PEPPER, SALT, CONTAINS LESS THAN 2 OF GARLIC, RED BELL PEPPER, CHILI PEPPER, CHILI DE ARBOL PEPPER, MUSTARD SEED, PLUM, RICE VINEGAR, SHALLOTS, MODIFIED CORN STARCH, PAPRIKA, POTASSIUM SORBATE AND SODIUM BENZOATE PRESERVATIVE, SPICE, OLEORESIN PAPRIKA COLOR, ANNATTO AND TURMERIC COLOR, XANTHAN GUM, SODIUM METABISULFITE, CITRIC ACID, TARTARIC ACID, CALCIUM DISODIUM EDTA TO PROTECT FLAVOR, NATURAL FLAVOR. CONTAINS: EGG."
+            }
+          }
+        ]
+      },
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3,
+              "ingredients": "Strawberry Yogurt  (CULTURED GRADE A NON FAT MILK, CANE SUGAR, WATER, MODIFIED FOOD STARCH, CONTAINS LESS THAN 1 OF NATURAL FLAVORS, AGAR AGAR, BETA CAROTENE AND BLACK CARROT JUICE CONCENTRATE FOR COLOR, MALIC ACID, POTASSIUM SORBATE TO MAINTAIN FRESHNESS, SODIUM CITRATE. VITAMIN D3. CONTAINS ACTIVE YOGURT CULTURES)"
+            }
+          },
+          {
+            "item": "Plain Greek Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Ounce",
+              "Calories": 17.0,
+              "Protein": 3.2,
+              "Total Carbohydrate": 1.3,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 13.2,
+              "ingredients": "Cultured Grade A Non-Fat Milk. Contains Active Yogurt Cultures: S. Thermophilus, L. Bulgaricus"
+            }
+          },
+          {
+            "item": "Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0,
+              "ingredients": "Cinnamon Granola (Whole Grain Rolled Oats, Sugar, Rice, Canola Oil, Whole Grain Wheat, Rice Syrip, Molasses, Honey, Cinnamon, Salt, BHT added to packaging material to preserve freshness. Contains Wheat.)"
+            }
+          },
+          {
+            "item": "Apple Cinnamon Muffins",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 218.8,
+              "Protein": 2.0,
+              "Total Carbohydrate": 28.8,
+              "Total Fat": 10.9,
+              "Saturated Fat": 2.5,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 179.0,
+              "ingredients": "Sugar, Enriched Bleached Wheat Flour Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid, Soybean Oil, Water, Eggs, Apple Pieces Apples, Salt, Ascorbic Acid, Calcium Chloride, Modified Food Starch, Contains Less Than 2 Of Cinnamon, Corn Starch, Dextrose, Leavening Baking Soda, Monocalcium Phosphate, Sodium Aluminum Phosphate, Mono- Diglycerides, Natural And Artificial Flavor, Palm Oil, Propylene Glycol Mono Diesters Of Fatty Acids, Salt, Sodium Stearoyl Lactylate, Sour Cream Cultured Cream, Enzyme, Soy Flour, Soy Lecithin, Vital Wheat Gluten, Whey. Processed in a facility that also processes Tree Nuts."
+            }
+          },
+          {
+            "item": "Glazed Donuts",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 donuts)",
+              "Calories": 295.3,
+              "Protein": 2.6,
+              "Total Carbohydrate": 37.2,
+              "Total Fat": 15.4,
+              "Saturated Fat": 7.7,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 295.3,
+              "ingredients": "Enriched Bleached Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Water, Palm Oil, Contains Less Than 2% Of The Following: Yeast, Dried Egg Whites (Egg Whites, Bakers Yeast, Citric Acid), Salt, Soy Flour, Dextrose, Whey (A Milk Derivative), Canola And/Or Soybean Oil, Agar, Wheat Starch, Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate), Mono And Diglycerides, Sorbitan Monostearate, Maltodextrin, Calcium Carbonate, Monoglycerides, Natural And Artificial Flavor, Datem, Soy Lecithin, Monocalcium Phosphate, To Preserve Freshness (Potassium Sorbate, Calcium Propionate, Citric Acid), Colored With (Caramel Color), Artificial Colors (Yellow 5, Yellow 6). May Contain: Coconut"
+            }
+          },
+          {
+            "item": "Blueberry Muffins",
+            "dietary_info": [
+              "gluten_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 175.6,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.1,
+              "Total Fat": 5.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 125.4,
+              "ingredients": "Enriched Flour (Bleached Wheat Flour, Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Blueberries, Vegetable Oil (Soybean, Canola), Eggs, Corn Syrup, Contains 2% Or Less: Maltodextrin, Modified Food Starch, Potassium Sorbate (To Maintain Freshness), Baking Soda, Sodium Aluminum Phosphate, Salt, Natural Flavor, Xanthan Gum, Mono- And Diglycerides, Monocalcium Phosphate, Enzymes, Sodium Stearoyl Lactylate, Corn Syrup Solids, Lemon Juice Solids. Processed In A Facility That Also Processes Products Made with Tree Nuts, Milk, And Soy."
+            }
+          }
+        ]
+      },
+      {
+        "category": "Display",
+        "items": [
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9,
+              "ingredients": "Egg"
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2,
+              "ingredients": "Water, White Gravy (Enriched Bleached Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Maltodextrin, Food Starch-Modified, Palm Oil, Salt, Corn Syrup Solids, Contains Less Than 2%: Chicken, Chicken Fat, Rendered Bacon Fat, Spices, Garlic Powder, Sugar, Nonfat Milk, Whey (Milk), Whey Protein Concentrate (Milk), Natural Flavors, Turmeric, Autolyzed Yeast Extract, Hydrolyzed Vegetable Protein (Corn, Soy, And/Or Wheat), Monosodium Glutamate, Sodium Caseinate (Milk), Mono And Diglycerides, Soy Flour, Disodium Guanylate, Disodium Inosinate, Color Added. Contains: Wheat, Milk, Soy Processed In A Facility That Processes Egg), Sausage Patty (PORK, WATER, SALT, POTASSIUM CHLORIDE, DEXTROSE, SPICES, MONOSODIUM GLUTAMATE, SODIUM PHOSPHATES, BHT, CITRIC ACID, CARAMEL COLOR.), Paprika, Black Pepper"
+            }
+          },
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7,
+              "ingredients": "Oatmeal, Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Cinnamon, Water"
+            }
+          },
+          {
+            "item": "Grits",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 94.5,
+              "Protein": 2.3,
+              "Total Carbohydrate": 19.6,
+              "Total Fat": 0.6,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 70.2,
+              "ingredients": "Grits (DRIED CORN), Salt Kosher (SALT, YELLOW PRUSSIATE OF SODA ), Water"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Southwestern Chicken Tornadoes",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 170.1,
+              "Protein": 5.0,
+              "Total Carbohydrate": 24.0,
+              "Total Fat": 7.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 370.2,
+              "ingredients": "CHICKEN TORNADOES (Water, Wheat Flour Enriched With Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid, Process Monterey Jack And American Cheeses With Peppers Monterey Jack And American Cheeses Milk, Cultures, Salt, Enzymes, Water, Red Bell And Jalapeno Peppers, Milk Fat, Sodium Citrate, Salt, Sodium Phosphate, Lactic Acid, Sorbic Acid Used As A Preservative, Vegetable Oil Soybean And/Or Sunflower And/Or Canola And/Or Corn Oil, Spinach, Red Bell Pepper, Corn, Batter Mix Yellow Corn Flour, Bleached Wheat Flour, Spices, Salt, Jalapeno Pepper, Leavening Sodium Acid Pyrophosphate, Sodium Bicarbonate, Guar Gum, Spice Extracts, Cooked Chicken Loaf Chicken, Water, Modified Cornstarch, Salt, Sodium Phosphate, Black Beans, Modified Cornstarch, Jalapeno Peppers Jalapenos, Salt, Acetic Acid, Calcium Chloride, Textured Soy Flour With Caramel Colour, Maltodextrin, Spices Cilantro, Dextrose, Tortilla Blend [Salt, Rice Flour, Yeast, Cellulose Gum, Guar Gum, Sodium Bicarbonate, Wheat Starch, Dough Conditioners Sodium Metabisulphite, Sodium Stearoyl-2- Lactylate, L-cysteine Hydrochloride, Mono And Diglycerides, Dicalcium Phosphate, Microcrystalline Cellulose, Silicon Dioxide To Prevent Caking], Salt, Garlic With Citric Acid, Ground Chili Pepper, Cayenne Pepper, Smoke Flavour Powder Maltodextrin Powder, Natural Hickory Smoke Flavour, Silicon Dioxide To Prevent Caking.Contains: Wheat, Milk, Soy.)"
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Canola Oil"
+            }
+          },
+          {
+            "item": "Sausage Link",
+            "dietary_info": [
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 191.5,
+              "Protein": 6.0,
+              "Total Carbohydrate": 0.3,
+              "Total Fat": 18.1,
+              "Saturated Fat": 6.0,
+              "Trans Fat": 0.2,
+              "Fiber": 0.1,
+              "Sodium": 393.1,
+              "ingredients": "Sausage  (PORK, WATER. CONTAINS 2% OR LESS: SALT, SPICES, SODIUM PHOSPHATES, DEXTROSE, MONOSODIUM GLUTAMATE, CARAMEL COLOR, BEEF COLLAGEN CASINGS.)"
+            }
+          },
+          {
+            "item": "Crispy Potato Bites",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.4,
+              "Protein": 2.3,
+              "Total Carbohydrate": 24.6,
+              "Total Fat": 14.0,
+              "Saturated Fat": 1.9,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 457.6,
+              "ingredients": "Crispy Potato Cubes (POTATOES, VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWING: SOYBEAN OIL, CANOLA OIL), ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MODIFIED CORN STARCH, RICE FLOUR, YELLOW CORN MEAL, SALT, GARLIC POWDER, ONION POWDER, SPICES, FLAVOR (CONTAINS AUOLYZED YEAST EXTRACT, DRIED TORULA YEAST, THIAMINE HYDROCHLORIDE, CORN SYRUP SOLIDS), DEHYDRATED PARSLEY, GUAR GUM, DISODIUM DIHYDROGEN PYROPHOSPHATE TO PROMOTE COLOR RETENTION, AND DEXTROSE.), Shortening (Soybean Oil, TBHQ, Dimethylpolysiloxane)"
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9,
+              "ingredients": "Biscuit (ENRICHED FLOUR BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID, WATER, SOYBEAN OIL, PALM OIL, BUTTERMILK, SUGAR, HYDROGENATED SOYBEAN OIL, SALT, BAKING SODA, SODIUM ALUMINUM PHOSPHATE, SODIUM ACID PYROPHOSPHATE, NATURAL AND ARTIFICIAL FLAVOR. CONTAINS WHEAT AND MILK INGREDIENTS.)"
+            }
+          },
+          {
+            "item": "French Toast Sticks",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (4 pieces)",
+              "Calories": 363.9,
+              "Protein": 4.3,
+              "Total Carbohydrate": 40.4,
+              "Total Fat": 21.3,
+              "Saturated Fat": 3.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 333.8,
+              "ingredients": "French Toast Stix (Bread Enriched Wheat Flour [Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Water, Sugar, Yeast, Yellow Corn Flour, Salt, Soybean Oil, Wheat Gluten, Grain Vinegar, Glyceryl Monooleate, Soy Lecithin, Turmeric [Color], Paprika Extract [Color], Polysorbate 60, Polysorbate 80, Ascorbic Acid, Enzymes, Cultured Wheat Flour, Water, Soybean Oil, Enriched Bleached Wheat Flour Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid, Enriched Wheat Flour Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid, Sugar, Yellow Corn Flour, Contains Less Than 2 Of The Following: Carrageenan, Dextrose, Gum Arabic, Leavening Baking Soda, Monocalcium Phosphate, Natural And Artificial Flavor, Polysorbate 80, Salt, Soy Flour, Soy Lecithin, Yeast.), Shortening (Soybean Oil, TBHQ, Dimethylpolysiloxane), Confection Sugar (SUGAR, CORNSTARCH)"
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelets Made to Order",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.9,
+              "Protein": 22.9,
+              "Total Carbohydrate": 4.6,
+              "Total Fat": 32.0,
+              "Saturated Fat": 7.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 707.3,
+              "ingredients": "Eggs (WHOLE EGGS, CITRIC ACID), Mushrooms (MUSHROOMS, WATER, SALT, CITRIC ACID, AND ASCORBIC ACID.), Canola Oil, Diced Turkey (Turkey, Salt, Dextrose, Brown Sugar, Sodium Phosphate, Smoke Flavoring, Sodium Erythorbate, Sodium Nitrite), Shredded Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Color Added, Potato Starch and Powdered Cellulose, Natamycin ), Bacon Bits (BACON CURED WITH: WATER, SALT, SODIUM PHOPSHATES, SODIUM ERYTHORBATE, SODIUM NITRITE. MAY CONTAIN: SUGAR, DEXTROSE, BROWN SUGAR, SMOKE FLAVORING, POTASSIUM CHLORIDE, SEASONING FLAVORING, MAY CONTAIN SALT, DEXTROSE OR CORN SYRUP, FLAVORING.), Green Peppers, Yellow Onion , Tomato, Vegan Chorizo (ORGANIC TEXTURED SOY PROTEIN (SOY FLOUR), ORGANIC SOYBEAN OIL, ORGANIC DISTILLED VINEGAR, ORGANIC SEASONING(ORGANIC CHILE PEPPER, ORGANIC SPICES, SALT, ORGANIC PAPRIKA, ORGANIC DEXTROSE, ORGANIC ANCHO CHILE POWDER, ORGANIC ONION POWDER, ORGANIC GARLIC POWDER, SEA SALT, NATURAL EXTRACTIVES OF PAPRIKA), SALT, ORGANIC CARAMEL COLOR, NATURAL EXTRACTIVES OF PAPRIKA (FOR COLOR).), Water"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1506 @@
+[
+  {
+    "hall": "Fountain",
+    "menu": [
+      {
+        "category": "Display",
+        "items": [
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7
+            }
+          },
+          {
+            "item": "Raisins",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 56.5,
+              "Protein": 0.6,
+              "Total Carbohydrate": 14.9,
+              "Total Fat": 0.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 2.1
+            }
+          },
+          {
+            "item": "Brown Sugar",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 141.7,
+              "Protein": 0.0,
+              "Total Carbohydrate": 37.8,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Baked Apples",
+            "dietary_info": [
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(1/2 cup)",
+              "Calories": 139.2,
+              "Protein": 1.0,
+              "Total Carbohydrate": 27.7,
+              "Total Fat": 3.7,
+              "Saturated Fat": 1.7,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 40.4
+            }
+          }
+        ]
+      },
+      {
+        "category": "Deli",
+        "items": [
+          {
+            "item": "Avocado Toast Station",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "seafood_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (BYO)",
+              "Calories": 336.5,
+              "Protein": 17.3,
+              "Total Carbohydrate": 31.7,
+              "Total Fat": 18.2,
+              "Saturated Fat": 5.3,
+              "Trans Fat": 0.0,
+              "Fiber": 5.6,
+              "Sodium": 649.3
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Sausage Link",
+            "dietary_info": [
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 191.5,
+              "Protein": 6.0,
+              "Total Carbohydrate": 0.3,
+              "Total Fat": 18.1,
+              "Saturated Fat": 6.0,
+              "Trans Fat": 0.2,
+              "Fiber": 0.1,
+              "Sodium": 393.1
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2
+            }
+          },
+          {
+            "item": "Homestyle Grits",
+            "dietary_info": [
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 133.3,
+              "Protein": 2.3,
+              "Total Carbohydrate": 19.6,
+              "Total Fat": 4.9,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 110.7
+            }
+          },
+          {
+            "item": "Fresh Curly Kale",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "serving",
+              "Calories": 5.0,
+              "Protein": 0.3,
+              "Total Carbohydrate": 0.7,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.3,
+              "Sodium": 30.5
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9
+            }
+          },
+          {
+            "item": "Apple Turnover",
+            "dietary_info": [
+              "gluten_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(2 EA)",
+              "Calories": 248.6,
+              "Protein": 3.6,
+              "Total Carbohydrate": 29.2,
+              "Total Fat": 13.5,
+              "Saturated Fat": 7.2,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 333.8
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3
+            }
+          },
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9
+            }
+          },
+          {
+            "item": "Crispy Potato Bites",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.4,
+              "Protein": 2.3,
+              "Total Carbohydrate": 24.6,
+              "Total Fat": 14.0,
+              "Saturated Fat": 1.9,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 457.6
+            }
+          },
+          {
+            "item": "Chicken Sausage Patty",
+            "dietary_info": [],
+            "nutrition": {
+              "Serving Size": "SERVING (2EA)",
+              "Calories": 150.3,
+              "Protein": 13.2,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 11.3,
+              "Saturated Fat": 3.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 526.1
+            }
+          }
+        ]
+      },
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Vanilla Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 98.7,
+              "Protein": 4.9,
+              "Total Carbohydrate": 16.8,
+              "Total Fat": 1.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 69.1
+            }
+          },
+          {
+            "item": "Sliced Peaches",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 cup",
+              "Calories": 50.9,
+              "Protein": 0.0,
+              "Total Carbohydrate": 13.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.7,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3
+            }
+          },
+          {
+            "item": "Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0
+            }
+          },
+          {
+            "item": "Fresh Honeydew",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 31.7,
+              "Protein": 0.6,
+              "Total Carbohydrate": 7.6,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 19.0
+            }
+          },
+          {
+            "item": "Fresh Strawberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 oz)",
+              "Calories": 19.3,
+              "Protein": 0.4,
+              "Total Carbohydrate": 4.2,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Fresh Cut Grapefruit",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 grapefruit",
+              "Calories": 60.5,
+              "Protein": 1.2,
+              "Total Carbohydrate": 15.1,
+              "Total Fat": 0.2,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Fresh Cantaloupe",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 CUP)",
+              "Calories": 31.5,
+              "Protein": 0.6,
+              "Total Carbohydrate": 7.6,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 12.7
+            }
+          }
+        ]
+      },
+      {
+        "category": "Grill Stations",
+        "items": [
+          {
+            "item": "Vegan Breakfast Sausage",
+            "dietary_info": [
+              "nuts_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 PATTIES)",
+              "Calories": 200.0,
+              "Protein": 12.0,
+              "Total Carbohydrate": 8.0,
+              "Total Fat": 14.0,
+              "Saturated Fat": 5.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 620.0
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelets Made to Order",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.9,
+              "Protein": 22.9,
+              "Total Carbohydrate": 4.6,
+              "Total Fat": 32.0,
+              "Saturated Fat": 7.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 707.3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hall": "University Towers",
+    "menu": [
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Orange",
+            "dietary_info": [],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 79.0,
+              "Protein": 1.0,
+              "Total Carbohydrate": 18.8,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 3.0,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Tropical Pineapple",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 44.5,
+              "Protein": 0.0,
+              "Total Carbohydrate": 11.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 5.6
+            }
+          },
+          {
+            "item": "Vanilla Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 98.7,
+              "Protein": 4.9,
+              "Total Carbohydrate": 16.8,
+              "Total Fat": 1.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 69.1
+            }
+          },
+          {
+            "item": "Fresh Strawberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 oz)",
+              "Calories": 19.3,
+              "Protein": 0.4,
+              "Total Carbohydrate": 4.2,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3
+            }
+          },
+          {
+            "item": "Orange Wedges",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 WEDGES)",
+              "Calories": 26.3,
+              "Protein": 0.3,
+              "Total Carbohydrate": 6.3,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Fresh Cut Grapefruit",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "1/2 grapefruit",
+              "Calories": 60.5,
+              "Protein": 1.2,
+              "Total Carbohydrate": 15.1,
+              "Total Fat": 0.2,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Blackberries",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Gram",
+              "Calories": 0.4,
+              "Protein": 0.0,
+              "Total Carbohydrate": 0.1,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 0.0
+            }
+          },
+          {
+            "item": "Cinnamon Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0
+            }
+          },
+          {
+            "item": "Banana",
+            "dietary_info": [
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 73.0,
+              "Protein": 0.9,
+              "Total Carbohydrate": 18.7,
+              "Total Fat": 0.3,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 2.1,
+              "Sodium": 0.8
+            }
+          }
+        ]
+      },
+      {
+        "category": "Dessert",
+        "items": [
+          {
+            "item": "Blueberry Muffin",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 muffin)",
+              "Calories": 250.5,
+              "Protein": 3.1,
+              "Total Carbohydrate": 37.6,
+              "Total Fat": 9.3,
+              "Saturated Fat": 3.4,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 160.1
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelette Station",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.6,
+              "Protein": 23.1,
+              "Total Carbohydrate": 4.3,
+              "Total Fat": 31.8,
+              "Saturated Fat": 7.3,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 462.6
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Turkey Sausage Links",
+            "dietary_info": [
+              "soy_allergen",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 101.5,
+              "Protein": 8.1,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 7.1,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 303.7
+            }
+          },
+          {
+            "item": "Tater Tots",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.9,
+              "Protein": 1.8,
+              "Total Carbohydrate": 17.1,
+              "Total Fat": 17.4,
+              "Saturated Fat": 2.7,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 207.0
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2
+            }
+          },
+          {
+            "item": "Quiche Lorraine",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 384.5,
+              "Protein": 24.3,
+              "Total Carbohydrate": 10.0,
+              "Total Fat": 27.0,
+              "Saturated Fat": 11.2,
+              "Trans Fat": 0.1,
+              "Fiber": 0.3,
+              "Sodium": 792.6
+            }
+          },
+          {
+            "item": "Garlic Kale",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 33.8,
+              "Protein": 0.6,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 2.9,
+              "Saturated Fat": 0.2,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 146.4
+            }
+          },
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9
+            }
+          },
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3
+            }
+          },
+          {
+            "item": "French Toast",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING(1.5ea)",
+              "Calories": 221.3,
+              "Protein": 8.3,
+              "Total Carbohydrate": 33.2,
+              "Total Fat": 6.5,
+              "Saturated Fat": 1.4,
+              "Trans Fat": 0.5,
+              "Fiber": 1.8,
+              "Sodium": 295.0
+            }
+          },
+          {
+            "item": "Country Smoked Ham",
+            "dietary_info": [
+              "pork_allergen",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 slice)",
+              "Calories": 110.0,
+              "Protein": 14.0,
+              "Total Carbohydrate": 0.0,
+              "Total Fat": 7.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 1275.0
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hall": "Clark",
+    "menu": [
+      {
+        "category": "Bowls",
+        "items": [
+          {
+            "item": "Vegan Breakfast Sausage",
+            "dietary_info": [
+              "nuts_allergen",
+              "soy_allergen",
+              "vegetarian_trait",
+              "vegan_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 PATTIES)",
+              "Calories": 200.0,
+              "Protein": 12.0,
+              "Total Carbohydrate": 8.0,
+              "Total Fat": 14.0,
+              "Saturated Fat": 5.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 620.0
+            }
+          },
+          {
+            "item": "White Quinoa",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (4 oz)",
+              "Calories": 102.2,
+              "Protein": 3.7,
+              "Total Carbohydrate": 18.3,
+              "Total Fat": 1.6,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 175.1
+            }
+          },
+          {
+            "item": "Fresh Broccoli",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (3.5 oz)",
+              "Calories": 30.2,
+              "Protein": 2.7,
+              "Total Carbohydrate": 5.4,
+              "Total Fat": 0.3,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 287.7
+            }
+          },
+          {
+            "item": "Scrambled eggs w/ cheese, peppers, onion",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 311.1,
+              "Protein": 20.4,
+              "Total Carbohydrate": 5.7,
+              "Total Fat": 22.8,
+              "Saturated Fat": 6.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.8,
+              "Sodium": 429.9
+            }
+          },
+          {
+            "item": "Cilantro Lime Rice",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 199.4,
+              "Protein": 4.6,
+              "Total Carbohydrate": 42.5,
+              "Total Fat": 0.6,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.5,
+              "Sodium": 906.9
+            }
+          },
+          {
+            "item": "Cumin Black Beans",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 50.2,
+              "Protein": 2.4,
+              "Total Carbohydrate": 7.1,
+              "Total Fat": 1.4,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 174.6
+            }
+          },
+          {
+            "item": "Butternut Squash",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 61.2,
+              "Protein": 0.4,
+              "Total Carbohydrate": 5.6,
+              "Total Fat": 4.5,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 26.6
+            }
+          },
+          {
+            "item": "Boom Boom Sauce",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Serving (2 TB)",
+              "Calories": 178.2,
+              "Protein": 0.0,
+              "Total Carbohydrate": 2.2,
+              "Total Fat": 18.9,
+              "Saturated Fat": 2.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 300.7
+            }
+          }
+        ]
+      },
+      {
+        "category": "Salad",
+        "items": [
+          {
+            "item": "Strawberry Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 99.6,
+              "Protein": 3.5,
+              "Total Carbohydrate": 19.4,
+              "Total Fat": 0.7,
+              "Saturated Fat": 0.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 52.3
+            }
+          },
+          {
+            "item": "Plain Greek Yogurt",
+            "dietary_info": [
+              "dairy_allergen",
+              "vegetarian_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "Ounce",
+              "Calories": 17.0,
+              "Protein": 3.2,
+              "Total Carbohydrate": 1.3,
+              "Total Fat": 0.0,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 13.2
+            }
+          },
+          {
+            "item": "Granola",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 182.2,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.4,
+              "Total Fat": 5.1,
+              "Saturated Fat": 0.0,
+              "Trans Fat": 0.0,
+              "Fiber": 2.0,
+              "Sodium": 81.0
+            }
+          },
+          {
+            "item": "Apple Cinnamon Muffins",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 218.8,
+              "Protein": 2.0,
+              "Total Carbohydrate": 28.8,
+              "Total Fat": 10.9,
+              "Saturated Fat": 2.5,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 179.0
+            }
+          },
+          {
+            "item": "Glazed Donuts",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 donuts)",
+              "Calories": 295.3,
+              "Protein": 2.6,
+              "Total Carbohydrate": 37.2,
+              "Total Fat": 15.4,
+              "Saturated Fat": 7.7,
+              "Trans Fat": 0.0,
+              "Fiber": 0.6,
+              "Sodium": 295.3
+            }
+          },
+          {
+            "item": "Blueberry Muffins",
+            "dietary_info": [
+              "gluten_allergen",
+              "egg_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "Each",
+              "Calories": 175.6,
+              "Protein": 2.0,
+              "Total Carbohydrate": 30.1,
+              "Total Fat": 5.5,
+              "Saturated Fat": 1.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.5,
+              "Sodium": 125.4
+            }
+          }
+        ]
+      },
+      {
+        "category": "Display",
+        "items": [
+          {
+            "item": "Hard Boiled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 egg)",
+              "Calories": 31.9,
+              "Protein": 3.2,
+              "Total Carbohydrate": 0.4,
+              "Total Fat": 5.3,
+              "Saturated Fat": 0.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 31.9
+            }
+          },
+          {
+            "item": "Sausage Gravy",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/4 cup)",
+              "Calories": 75.5,
+              "Protein": 0.7,
+              "Total Carbohydrate": 6.2,
+              "Total Fat": 5.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 284.2
+            }
+          },
+          {
+            "item": "Quaker Oatmeal",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 cup)",
+              "Calories": 168.4,
+              "Protein": 6.0,
+              "Total Carbohydrate": 28.5,
+              "Total Fat": 3.6,
+              "Saturated Fat": 0.7,
+              "Trans Fat": 0.0,
+              "Fiber": 4.0,
+              "Sodium": 374.7
+            }
+          },
+          {
+            "item": "Grits",
+            "dietary_info": [
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 94.5,
+              "Protein": 2.3,
+              "Total Carbohydrate": 19.6,
+              "Total Fat": 0.6,
+              "Saturated Fat": 0.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.1,
+              "Sodium": 70.2
+            }
+          }
+        ]
+      },
+      {
+        "category": "Home Style Entree",
+        "items": [
+          {
+            "item": "Southwestern Chicken Tornadoes",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING",
+              "Calories": 170.1,
+              "Protein": 5.0,
+              "Total Carbohydrate": 24.0,
+              "Total Fat": 7.0,
+              "Saturated Fat": 2.0,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 370.2
+            }
+          },
+          {
+            "item": "Freshly Scrambled Eggs",
+            "dietary_info": [
+              "egg_allergen",
+              "vegetarian_trait",
+              "halal_trait",
+              "wolf_approved_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 181.4,
+              "Protein": 15.7,
+              "Total Carbohydrate": 1.2,
+              "Total Fat": 12.1,
+              "Saturated Fat": 3.6,
+              "Trans Fat": 0.0,
+              "Fiber": 0.0,
+              "Sodium": 169.3
+            }
+          },
+          {
+            "item": "Sausage Link",
+            "dietary_info": [
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (2 links)",
+              "Calories": 191.5,
+              "Protein": 6.0,
+              "Total Carbohydrate": 0.3,
+              "Total Fat": 18.1,
+              "Saturated Fat": 6.0,
+              "Trans Fat": 0.2,
+              "Fiber": 0.1,
+              "Sodium": 393.1
+            }
+          },
+          {
+            "item": "Crispy Potato Bites",
+            "dietary_info": [
+              "gluten_allergen",
+              "vegetarian_trait",
+              "vegan_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1/2 cup)",
+              "Calories": 232.4,
+              "Protein": 2.3,
+              "Total Carbohydrate": 24.6,
+              "Total Fat": 14.0,
+              "Saturated Fat": 1.9,
+              "Trans Fat": 0.0,
+              "Fiber": 2.3,
+              "Sodium": 457.6
+            }
+          },
+          {
+            "item": "Buttermilk Biscuit",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "vegetarian_trait",
+              "halal_trait"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 biscuit)",
+              "Calories": 191.8,
+              "Protein": 4.0,
+              "Total Carbohydrate": 24.2,
+              "Total Fat": 8.1,
+              "Saturated Fat": 6.1,
+              "Trans Fat": 0.0,
+              "Fiber": 1.0,
+              "Sodium": 585.9
+            }
+          },
+          {
+            "item": "French Toast Sticks",
+            "dietary_info": [
+              "gluten_allergen",
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (4 pieces)",
+              "Calories": 363.9,
+              "Protein": 4.3,
+              "Total Carbohydrate": 40.4,
+              "Total Fat": 21.3,
+              "Saturated Fat": 3.5,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 333.8
+            }
+          }
+        ]
+      },
+      {
+        "category": "Saute Station",
+        "items": [
+          {
+            "item": "Omelets Made to Order",
+            "dietary_info": [
+              "dairy_allergen",
+              "egg_allergen",
+              "soy_allergen",
+              "pork_allergen"
+            ],
+            "nutrition": {
+              "Serving Size": "SERVING (1 omelet)",
+              "Calories": 392.9,
+              "Protein": 22.9,
+              "Total Carbohydrate": 4.6,
+              "Total Fat": 32.0,
+              "Saturated Fat": 7.8,
+              "Trans Fat": 0.0,
+              "Fiber": 0.9,
+              "Sodium": 707.3
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
