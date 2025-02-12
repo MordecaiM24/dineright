@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -10,10 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Menu, Search } from "lucide-react";
-import { Toggle } from "@/components/ui/toggle";
-import { Input } from "@/components/ui/input";
 import {
   Dialog,
   DialogContent,
@@ -21,7 +16,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Slider } from "@/components/ui/slider";
+import { Input } from "@/components/ui/input";
 import { RangeSlider } from "@/components/ui/range-slider";
 import {
   Select,
@@ -30,15 +25,19 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Toggle } from "@/components/ui/toggle";
+import toFormalCase from "@/utils/formal";
+import { Menu, Search } from "lucide-react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
-  PieChart,
-  Pie,
   Cell,
-  ResponsiveContainer,
   Legend,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
   Tooltip,
 } from "recharts";
-import toFormalCase from "@/utils/formal";
 
 const transformDietaryInfo = (info) => {
   return info.map((tag) => tag.replace("_allergen", "").replace("_trait", ""));
@@ -487,6 +486,8 @@ const MacroChart = React.memo(({ nutrition }) => {
     </div>
   );
 });
+
+MacroChart.displayName = "MacroChart";
 
 // const MenuDashboard = () => {
 //   const [data, setData] = useState([]);
