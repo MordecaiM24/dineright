@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { MenuItem, TrackedItem } from "@/types";
 import { Button } from "@/components/ui/button";
-import { Check, Plus, Edit, Trash } from "lucide-react";
+import { Plus, Edit, Trash } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import {
   Drawer,
@@ -69,17 +69,16 @@ export default function TrackMealButton({
     setIsDrawerOpen(true);
   };
 
-  const saveTracking = (e?: React.MouseEvent) => {
+  const saveTracking = () => {
     const today = new Date().toISOString().split("T")[0];
-    let trackingData = localStorage.getItem("trackingData");
-    let parsedData = trackingData ? JSON.parse(trackingData) : {};
+    const trackingData = localStorage.getItem("trackingData");
+    const parsedData = trackingData ? JSON.parse(trackingData) : {};
 
     if (!parsedData[today]) {
       parsedData[today] = [];
     }
 
     if (added && trackedItemId) {
-      // Update existing item
       parsedData[today] = parsedData[today].map((trackedItem: TrackedItem) => {
         if (trackedItem.id === trackedItemId) {
           return { ...trackedItem, servings };
@@ -118,14 +117,14 @@ export default function TrackMealButton({
     setIsDrawerOpen(false);
   };
 
-  const deleteTracking = (e?: React.MouseEvent) => {
+  const deleteTracking = () => {
     if (!trackedItemId) return;
 
     const today = new Date().toISOString().split("T")[0];
-    let trackingData = localStorage.getItem("trackingData");
+    const trackingData = localStorage.getItem("trackingData");
 
     if (trackingData) {
-      let parsedData = JSON.parse(trackingData);
+      const parsedData = JSON.parse(trackingData);
 
       if (parsedData[today]) {
         parsedData[today] = parsedData[today].filter(
@@ -188,7 +187,7 @@ export default function TrackMealButton({
         ) : (
           <>
             <Plus className="mr-2 h-4 w-4" />
-            Add to Today's Meals
+            Add to Today&apos;s Meals
           </>
         )}
       </Button>
@@ -228,7 +227,6 @@ function ServingsDrawer({
   onSave,
   onDelete,
   itemName,
-  servingSize,
 }: ServingsDrawerProps) {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setServings(Number(e.target.value));

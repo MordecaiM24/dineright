@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { calculateMacros } from "@/utils/menu-utils";
 import MobileNav from "@/components/mobile-nav";
 import MainContent from "@/components/main-content";
-import { MenuData } from "@/types";
+import { DiningHall, MenuCategory, MenuData } from "@/types";
 
 export default function Home() {
   const [view, setView] = useState<"halls" | "items" | "tracking">("halls");
@@ -20,9 +20,9 @@ export default function Home() {
 
         // Process data to calculate macro percentages
         const processedData = {
-          halls: data.map((hall: any) => ({
+          halls: data.map((hall: DiningHall) => ({
             ...hall,
-            menu: hall.menu.map((category: any) => ({
+            menu: hall.menu.map((category: MenuCategory) => ({
               ...category,
               items: category.items.map(calculateMacros),
             })),
@@ -45,9 +45,9 @@ export default function Home() {
 
         // Process data to calculate macro percentages
         const processedData = {
-          halls: data.map((hall: any) => ({
+          halls: data.map((hall: DiningHall) => ({
             ...hall,
-            menu: hall.menu.map((category: any) => ({
+            menu: hall.menu.map((category: MenuCategory) => ({
               ...category,
               items: category.items.map(calculateMacros),
             })),

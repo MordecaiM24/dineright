@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { MenuData, DiningHall, MenuCategory, MenuItem } from "@/types";
+import { MenuData, DiningHall, MenuItem } from "@/types";
 import ItemCard from "@/components/item-card";
 import { getAllergenFilters, getDietaryFilters } from "@/utils/menu-utils";
-import { ChevronDown, ChevronUp, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -31,8 +31,8 @@ export default function DiningHallView({
   menuData,
   isDetailedLoading,
 }: DiningHallViewProps) {
-  const [selectedHall, setSelectedHall] = useState<string | null>(null);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [, setSelectedHall] = useState<string | null>(null);
+  const [, setSelectedCategory] = useState<string | null>(null);
   const [dietaryFilters, setDietaryFilters] = useState<string[]>([]);
   const [allergenFilters, setAllergenFilters] = useState<string[]>([]);
 
