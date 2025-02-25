@@ -90,28 +90,6 @@ export default function TrackingView() {
     };
   };
 
-  const removeItem = (itemId: string) => {
-    // Create new tracking data without the item
-    const updatedItems = (trackingData[selectedDate] || []).filter(
-      (item) => item.id !== itemId
-    );
-
-    const updatedTrackingData = {
-      ...trackingData,
-      [selectedDate]: updatedItems,
-    };
-
-    // Update state and localStorage
-    setTrackingData(updatedTrackingData);
-    localStorage.setItem("trackingData", JSON.stringify(updatedTrackingData));
-
-    toast({
-      title: "Item Removed",
-      description: "The item has been removed from your tracking.",
-      duration: 3000,
-    });
-  };
-
   const clearDay = () => {
     const updatedTrackingData = { ...trackingData };
     delete updatedTrackingData[selectedDate];
