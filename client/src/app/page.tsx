@@ -9,8 +9,8 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-zinc-100 dark:bg-zinc-900">
-      <header className="px-4 py-3 bg-zinc-800 dark:bg-zinc-950 text-white">
-        <h1 className="text-xl font-bold">Dining Menu</h1>
+      <header className="px-24 py-3 text-[#C00] dark:bg-zinc-950 ">
+        <h1 className="text-xl font-bold">NCSU Dining </h1>
       </header>
 
       <div className="container mx-auto px-4 py-6">
