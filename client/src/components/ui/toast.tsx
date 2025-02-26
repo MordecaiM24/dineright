@@ -1,6 +1,5 @@
 "use client";
 import { toast as shadToast } from "sonner";
-import { Button } from "@/components/ui/button";
 
 export const toast = ({
   title,
