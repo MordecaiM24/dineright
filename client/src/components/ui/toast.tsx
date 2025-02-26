@@ -1,11 +1,24 @@
+"use client";
+import { toast as shadToast } from "sonner";
+import { Button } from "@/components/ui/button";
+
 export const toast = ({
   title,
   description,
+  duration,
+  action,
 }: {
   title: string;
   description: string;
   duration?: number;
+  action?: {
+    label: string;
+    onClick: () => void;
+  };
 }) => {
-  // In a real implementation, this would be a proper toast system
-  console.log(`Toast: ${title} - ${description}`);
+  return shadToast(title, {
+    description,
+    duration,
+    action,
+  });
 };
