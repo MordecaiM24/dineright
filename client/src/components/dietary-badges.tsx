@@ -60,6 +60,11 @@ export default function DietaryBadges({ dietaryInfo }: DietaryBadgesProps) {
         color:
           "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300",
       },
+      seafood_allergen: {
+        label: "Contains seafood",
+        color:
+          "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300",
+      },
     };
 
     return (

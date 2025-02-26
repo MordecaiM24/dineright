@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { MenuItem, TrackedItem } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Plus, Edit, Trash } from "lucide-react";
@@ -153,7 +153,7 @@ export default function TrackMealButton({
         <Button
           variant={added ? "outline" : "default"}
           className="w-8 h-8 flex items-center justify-center"
-          onClick={handleButtonClick}
+          onClick={(e) => handleButtonClick(e)}
         >
           {added ? <Edit className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
         </Button>
@@ -177,7 +177,7 @@ export default function TrackMealButton({
       <Button
         variant={added ? "outline" : "default"}
         className="w-full"
-        onClick={handleButtonClick}
+        onClick={(e) => handleButtonClick(e)}
       >
         {added ? (
           <>
@@ -229,12 +229,20 @@ function ServingsDrawer({
   itemName,
 }: ServingsDrawerProps) {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.stopPropagation();
     setServings(Number(e.target.value));
   };
 
+  const handleOpenChange = (isOpen: boolean, e?: React.MouseEvent) => {
+    if (e) {
+      e.stopPropagation();
+    }
+    setOpen(isOpen);
+  };
+
   return (
-    <Drawer open={open} onOpenChange={setOpen}>
-      <DrawerContent>
+    <Drawer open={open} onOpenChange={handleOpenChange}>
+      <DrawerContent onClick={(e: React.MouseEvent) => e.stopPropagation()}>
         <div className="w-full flex flex-col items-center justify-center">
           <DrawerHeader>
             <DrawerTitle>{isEditing ? "Edit Item" : "Add Item"}</DrawerTitle>
