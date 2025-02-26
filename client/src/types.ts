@@ -18,6 +18,7 @@ export interface MenuItem {
   item: string;
   dietary_info: string[];
   nutrition: NutritionInfo;
+  categoryName?: string;
 }
 
 export interface MenuCategory {

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MenuData, DiningHall, MenuItem } from "@/types";
 import ItemCard from "@/components/item-card";
 import { getAllergenFilters, getDietaryFilters } from "@/utils/menu-utils";
-import { Menu } from "lucide-react";
+import { Filter } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -10,13 +10,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
@@ -31,25 +24,39 @@ export default function DiningHallView({
   menuData,
   isDetailedLoading,
 }: DiningHallViewProps) {
-  const [, setSelectedHall] = useState<string | null>(null);
   const [, setSelectedCategory] = useState<string | null>(null);
-  const [dietaryFilters, setDietaryFilters] = useState<string[]>([]);
-  const [allergenFilters, setAllergenFilters] = useState<string[]>([]);
+  const [hallFilters, setHallFilters] = useState<
+    Record<string, { dietary: string[]; allergen: string[] }>
+  >({});
 
-  const toggleDietaryFilter = (filter: string) => {
-    setDietaryFilters((prev) =>
-      prev.includes(filter)
-        ? prev.filter((f) => f !== filter)
-        : [...prev, filter]
-    );
+  const toggleDietaryFilter = (hallName: string, filter: string) => {
+    setHallFilters((prev) => {
+      const hallFilter = prev[hallName] || { dietary: [], allergen: [] };
+      return {
+        ...prev,
+        [hallName]: {
+          ...hallFilter,
+          dietary: hallFilter.dietary.includes(filter)
+            ? hallFilter.dietary.filter((f) => f !== filter)
+            : [...hallFilter.dietary, filter],
+        },
+      };
+    });
   };
 
-  const toggleAllergenFilter = (filter: string) => {
-    setAllergenFilters((prev) =>
-      prev.includes(filter)
-        ? prev.filter((f) => f !== filter)
-        : [...prev, filter]
-    );
+  const toggleAllergenFilter = (hallName: string, filter: string) => {
+    setHallFilters((prev) => {
+      const hallFilter = prev[hallName] || { dietary: [], allergen: [] };
+      return {
+        ...prev,
+        [hallName]: {
+          ...hallFilter,
+          allergen: hallFilter.allergen.includes(filter)
+            ? hallFilter.allergen.filter((f) => f !== filter)
+            : [...hallFilter.allergen, filter],
+        },
+      };
+    });
   };
 
   // Get featured items (Home Style Entree if available, otherwise first category)
@@ -82,20 +89,22 @@ export default function DiningHallView({
   };
 
   // Filter items based on dietary and allergen filters
-  const getFilteredItems = (items: MenuItem[]) => {
+  const getFilteredItems = (hallName: string, items: MenuItem[]) => {
+    const filters = hallFilters[hallName] || { dietary: [], allergen: [] };
+
     return items.filter((item) => {
       // Apply dietary filters
       if (
-        dietaryFilters.length > 0 &&
-        !dietaryFilters.every((filter) => item.dietary_info.includes(filter))
+        filters.dietary.length > 0 &&
+        !filters.dietary.every((filter) => item.dietary_info.includes(filter))
       ) {
         return false;
       }
 
       // Apply allergen filters
       if (
-        allergenFilters.length > 0 &&
-        allergenFilters.some((filter) => item.dietary_info.includes(filter))
+        filters.allergen.length > 0 &&
+        filters.allergen.some((filter) => item.dietary_info.includes(filter))
       ) {
         return false;
       }
@@ -104,76 +113,35 @@ export default function DiningHallView({
     });
   };
 
+  // Get all items from all categories in a hall
+  const getAllItems = (hall: DiningHall) => {
+    return hall.menu.flatMap((category) =>
+      category.items.map((item) => ({
+        ...item,
+        categoryName: category.category,
+      }))
+    );
+  };
+
   return (
     <div className="space-y-8 pb-16 md:pb-0">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <h2 className="text-xl font-medium">Dining Halls</h2>
-
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="outline" className="w-full sm:w-auto">
-              <Menu className="mr-2 h-4 w-4" />
-              Filters
-            </Button>
-          </SheetTrigger>
-          <SheetContent>
-            <SheetHeader className="mb-4">
-              <SheetTitle>Dietary Filters</SheetTitle>
-            </SheetHeader>
-
-            <div className="space-y-6">
-              <div>
-                <h4 className="text-sm text-zinc-500 mb-2">
-                  Dietary Preferences
-                </h4>
-                <div className="space-y-2">
-                  {getDietaryFilters().map((filter) => (
-                    <div key={filter.id} className="flex items-center gap-2">
-                      <Checkbox
-                        id={`sheet-${filter.id}`}
-                        checked={dietaryFilters.includes(filter.id)}
-                        onCheckedChange={() => toggleDietaryFilter(filter.id)}
-                      />
-                      <Label htmlFor={`sheet-${filter.id}`}>
-                        {filter.label.charAt(0).toUpperCase() +
-                          filter.label.slice(1)}
-                      </Label>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h4 className="text-sm text-zinc-500 mb-2">Allergen-Free</h4>
-                <div className="space-y-2">
-                  {getAllergenFilters().map((filter) => (
-                    <div key={filter.id} className="flex items-center gap-2">
-                      <Checkbox
-                        id={`sheet-${filter.id}`}
-                        checked={allergenFilters.includes(filter.id)}
-                        onCheckedChange={() => toggleAllergenFilter(filter.id)}
-                      />
-                      <Label htmlFor={`sheet-${filter.id}`}>
-                        {filter.label.charAt(0).toUpperCase() +
-                          filter.label.slice(1)}
-                      </Label>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </SheetContent>
-        </Sheet>
       </div>
 
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {menuData.halls.map((hall, hallIndex) => {
           const featuredItems = getFeaturedItems(hall);
+          const hallName = hall.hall;
+          const currentFilters = hallFilters[hallName] || {
+            dietary: [],
+            allergen: [],
+          };
 
           return (
             <div
               key={hallIndex}
-              className="bg-white dark:bg-zinc-800 rounded-lg shadow-sm overflow-hidden"
+              className="bg-white dark:bg-zinc-800 rounded-lg shadow-sm overflow-hidden flex flex-col justify-between"
             >
               <div className="p-4 border-b border-zinc-200 dark:border-zinc-700">
                 <h3 className="text-lg font-medium">{hall.hall}</h3>
@@ -207,69 +175,179 @@ export default function DiningHallView({
               <div className="p-4 pt-0">
                 <Dialog>
                   <DialogTrigger asChild>
-                    <Button
-                      variant="outline"
-                      className="w-full"
-                      onClick={() => setSelectedHall(hall.hall)}
-                    >
+                    <Button variant="outline" className="w-full">
                       View All Categories
                     </Button>
                   </DialogTrigger>
-                  <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+                  <DialogContent className="max-w-4xl h-[90vh] overflow-y-auto flex flex-col">
                     <DialogHeader>
                       <DialogTitle>{hall.hall}</DialogTitle>
                     </DialogHeader>
 
-                    <Tabs
-                      defaultValue={hall.menu[0]?.category || ""}
-                      className="mt-4"
-                    >
-                      <TabsList className="flex flex-wrap justify-start mb-4">
-                        {hall.menu.map((category, categoryIndex) => (
-                          <TabsTrigger
-                            key={categoryIndex}
-                            value={category.category}
-                            onClick={() =>
-                              setSelectedCategory(category.category)
-                            }
-                          >
-                            {category.category}
-                          </TabsTrigger>
-                        ))}
-                      </TabsList>
+                    <div className="flex flex-col md:flex-row gap-4 mt-4">
+                      {/* Filters Panel */}
+                      <div className="md:w-64 space-y-6 p-4 bg-zinc-50 dark:bg-zinc-900 rounded-lg">
+                        <div>
+                          <h4 className="text-sm font-medium mb-3 flex items-center gap-2">
+                            <Filter className="h-4 w-4" /> Filters
+                          </h4>
 
-                      {hall.menu.map((category, categoryIndex) => {
-                        const filteredItems = getFilteredItems(category.items);
-
-                        return (
-                          <TabsContent
-                            key={categoryIndex}
-                            value={category.category}
-                            className="mt-0"
-                          >
-                            {filteredItems.length > 0 ? (
-                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {filteredItems.map((item, itemIndex) => (
-                                  <ItemCard
-                                    key={itemIndex}
-                                    item={item}
-                                    hallName={hall.hall}
-                                    categoryName={category.category}
-                                    isDetailedLoading={isDetailedLoading}
-                                  />
+                          <div className="space-y-4">
+                            <div>
+                              <h5 className="text-sm text-zinc-500 mb-2">
+                                Dietary Preferences
+                              </h5>
+                              <div className="space-y-2">
+                                {getDietaryFilters().map((filter) => (
+                                  <div
+                                    key={filter.id}
+                                    className="flex items-center gap-2"
+                                  >
+                                    <Checkbox
+                                      id={`${hallName}-${filter.id}`}
+                                      checked={currentFilters.dietary.includes(
+                                        filter.id
+                                      )}
+                                      onCheckedChange={() =>
+                                        toggleDietaryFilter(hallName, filter.id)
+                                      }
+                                    />
+                                    <Label htmlFor={`${hallName}-${filter.id}`}>
+                                      {filter.label.charAt(0).toUpperCase() +
+                                        filter.label.slice(1)}
+                                    </Label>
+                                  </div>
                                 ))}
                               </div>
-                            ) : (
-                              <div className="py-8 text-center">
-                                <p className="text-zinc-500">
-                                  No items match your filter criteria
-                                </p>
+                            </div>
+
+                            <div>
+                              <h5 className="text-sm text-zinc-500 mb-2">
+                                Allergen-Free
+                              </h5>
+                              <div className="space-y-2">
+                                {getAllergenFilters().map((filter) => (
+                                  <div
+                                    key={filter.id}
+                                    className="flex items-center gap-2"
+                                  >
+                                    <Checkbox
+                                      id={`${hallName}-${filter.id}`}
+                                      checked={currentFilters.allergen.includes(
+                                        filter.id
+                                      )}
+                                      onCheckedChange={() =>
+                                        toggleAllergenFilter(
+                                          hallName,
+                                          filter.id
+                                        )
+                                      }
+                                    />
+                                    <Label htmlFor={`${hallName}-${filter.id}`}>
+                                      {filter.label.charAt(0).toUpperCase() +
+                                        filter.label.slice(1)}
+                                    </Label>
+                                  </div>
+                                ))}
                               </div>
-                            )}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Menu Content */}
+                      <div className="flex-1">
+                        <Tabs defaultValue="all">
+                          <TabsList className="flex flex-wrap justify-start mb-4 h-fit">
+                            <TabsTrigger
+                              value="all"
+                              onClick={() => setSelectedCategory("all")}
+                              className="leading-6 font-medium"
+                            >
+                              All Categories
+                            </TabsTrigger>
+                            {hall.menu.map((category, categoryIndex) => (
+                              <TabsTrigger
+                                key={categoryIndex}
+                                value={category.category}
+                                onClick={() =>
+                                  setSelectedCategory(category.category)
+                                }
+                                className="leading-6"
+                              >
+                                {category.category}
+                              </TabsTrigger>
+                            ))}
+                          </TabsList>
+
+                          {/* All Categories Tab Content */}
+                          <TabsContent value="all" className="mt-0">
+                            {(() => {
+                              const allItems = getAllItems(hall);
+                              const filteredItems = getFilteredItems(
+                                hallName,
+                                allItems
+                              );
+
+                              return filteredItems.length > 0 ? (
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                  {filteredItems.map((item, itemIndex) => (
+                                    <ItemCard
+                                      key={itemIndex}
+                                      item={item}
+                                      hallName={hall.hall}
+                                      categoryName={item.categoryName || ""}
+                                      isDetailedLoading={isDetailedLoading}
+                                    />
+                                  ))}
+                                </div>
+                              ) : (
+                                <div className="py-8 text-center">
+                                  <p className="text-zinc-500">
+                                    No items match your filter criteria
+                                  </p>
+                                </div>
+                              );
+                            })()}
                           </TabsContent>
-                        );
-                      })}
-                    </Tabs>
+
+                          {hall.menu.map((category, categoryIndex) => {
+                            const filteredItems = getFilteredItems(
+                              hallName,
+                              category.items
+                            );
+
+                            return (
+                              <TabsContent
+                                key={categoryIndex}
+                                value={category.category}
+                                className="mt-0"
+                              >
+                                {filteredItems.length > 0 ? (
+                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {filteredItems.map((item, itemIndex) => (
+                                      <ItemCard
+                                        key={itemIndex}
+                                        item={item}
+                                        hallName={hall.hall}
+                                        categoryName={category.category}
+                                        isDetailedLoading={isDetailedLoading}
+                                      />
+                                    ))}
+                                  </div>
+                                ) : (
+                                  <div className="py-8 text-center">
+                                    <p className="text-zinc-500">
+                                      No items match your filter criteria
+                                    </p>
+                                  </div>
+                                )}
+                              </TabsContent>
+                            );
+                          })}
+                        </Tabs>
+                      </div>
+                    </div>
                   </DialogContent>
                 </Dialog>
               </div>

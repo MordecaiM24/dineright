@@ -29,6 +29,7 @@ export const getAllergenFilters = () => [
   { id: "nuts_allergen", label: "nut-free" },
   { id: "sesame_allergen", label: "sesame-free" },
   { id: "pork_allergen", label: "pork-free" },
+  { id: "seafood_allergen", label: "seafood-free" },
 ];
 
 export const getDietaryFilters = () => [
