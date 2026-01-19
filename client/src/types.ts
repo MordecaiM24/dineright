@@ -14,10 +14,13 @@ export interface NutritionInfo {
   fatPercent?: number;
 }
 
+export type MealPeriod = "Breakfast" | "Lunch" | "Dinner" | "Daily";
+
 export interface MenuItem {
   item: string;
   dietary_info: string[];
   nutrition: NutritionInfo;
+  meal_periods?: MealPeriod[];
   categoryName?: string;
 }
 

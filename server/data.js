@@ -6,10 +6,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 function loadMenus() {
   const menu_compact = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "../scraper/dining/menu_compact.json"))
+    fs.readFileSync(path.join(__dirname, "../scraper/menu_compact.json"))
   );
   const menu_full = JSON.parse(
-    fs.readFileSync(path.join(__dirname, "../scraper/dining/menu_full.json"))
+    fs.readFileSync(path.join(__dirname, "../scraper/menu_full.json"))
   );
   return { menu_compact, menu_full };
 }
@@ -54,7 +54,7 @@ function processMenus() {
 processMenus();
 
 // watch for changes
-fs.watch(path.join(__dirname, "../scraper/dining"), (eventType, filename) => {
+fs.watch(path.join(__dirname, "../scraper"), (eventType, filename) => {
   if (filename === "menu_compact.json" || filename === "menu_full.json") {
     console.log(`reloading menus due to change in ${filename}`);
     processMenus();

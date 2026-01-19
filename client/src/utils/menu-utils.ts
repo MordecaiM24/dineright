@@ -1,4 +1,4 @@
-import { MenuItem } from "@/types";
+import { MenuItem, MealPeriod } from "@/types";
 
 export const calculateMacros = (item: MenuItem): MenuItem => {
   const protein = item.nutrition.Protein;
@@ -46,3 +46,48 @@ export const getSortOptions = () => [
   { id: "carb_high", label: "carb % (high to low)" },
   { id: "fat_high", label: "fat % (high to low)" },
 ];
+
+/**
+ * Get the current meal period based on time of day
+ * - Before 10:30am: Breakfast
+ * - 10:30am - 1:30pm: Lunch
+ * - 1:30pm - 4:30pm: Daily
+ * - After 4:30pm: Dinner
+ */
+export const getCurrentMealPeriod = (): MealPeriod => {
+  const now = new Date();
+  const hour = now.getHours();
+  const minute = now.getMinutes();
+  const time = hour + minute / 60;
+
+  if (time < 10.5) return "Breakfast";
+  if (time < 13.5) return "Lunch";
+  if (time < 16.5) return "Daily";
+  return "Dinner";
+};
+
+/**
+ * Get all meal period filter options
+ */
+export const getMealPeriodFilters = () => [
+  { id: "Breakfast", label: "Breakfast", timeRange: "until 10:30am" },
+  { id: "Lunch", label: "Lunch", timeRange: "10:30am - 1:30pm" },
+  { id: "Daily", label: "Daily", timeRange: "1:30pm - 4:30pm" },
+  { id: "Dinner", label: "Dinner", timeRange: "after 4:30pm" },
+];
+
+/**
+ * Filter items by meal period
+ * Items with "Daily" in their meal_periods are always included
+ */
+export const filterItemsByMealPeriod = (
+  items: MenuItem[],
+  mealPeriod: MealPeriod | "all"
+): MenuItem[] => {
+  if (mealPeriod === "all") return items;
+
+  return items.filter((item) => {
+    const periods = item.meal_periods || [];
+    return periods.includes(mealPeriod) || periods.includes("Daily");
+  });
+};

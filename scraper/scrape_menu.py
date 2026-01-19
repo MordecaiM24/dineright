@@ -2,6 +2,7 @@
 """
 CBORD NetNutrition scraper for NC State Dining
 Scrapes menu data from https://netmenu2.cbord.com/NetNutrition/ncstate-dining
+Only scrapes dining halls that are currently open according to dining.ncsu.edu
 """
 
 import requests
@@ -12,6 +13,7 @@ from copy import deepcopy
 from collections import defaultdict
 
 BASE_URL = "https://netmenu2.cbord.com/NetNutrition/ncstate-dining"
+DINING_NCSU_URL = "https://dining.ncsu.edu/locations/"
 
 # Map dietary icon titles to internal names
 DIETARY_MAP = {
@@ -31,6 +33,15 @@ DIETARY_MAP = {
     "Contains Sesame": "sesame_allergen",
 }
 
+# Map dining.ncsu.edu names to CBORD names
+HALL_NAME_MAP = {
+    "fountain": "Fountain Dining Hall",
+    "clark": "Clark Dining Hall",
+    "case": "Case Dining Hall",
+    "university towers": "University Towers Dining Hall",
+    "one earth": "One Earth Dining Hall",
+}
+
 
 class DiningMenuScraper:
     def __init__(self):
@@ -45,6 +56,34 @@ class DiningMenuScraper:
         url = f"{BASE_URL}/{endpoint}"
         resp = self.session.post(url, data=data)
         return resp
+
+    def get_open_dining_halls(self):
+        """Get list of currently open dining halls from dining.ncsu.edu"""
+        try:
+            resp = requests.get(DINING_NCSU_URL, timeout=10)
+            html = resp.text
+
+            # Find open dining halls in the "Dining Hall" section
+            # Pattern: location-tile--open...><strong>Name</strong>...range">Hours
+            pattern = r'location-tile--open"[^>]*>[^<]*<[^>]*>[^<]*<[^>]*style="[^"]*"[^>]*>[^<]*</div><div[^>]*><h4><strong>([^<]+)</strong>'
+            matches = re.findall(pattern, html)
+
+            open_halls = []
+            for name in matches:
+                name_lower = name.lower().strip()
+                # Map to CBORD name if it's a main dining hall
+                for key, cbord_name in HALL_NAME_MAP.items():
+                    if key in name_lower:
+                        open_halls.append({
+                            "ncsu_name": name.strip(),
+                            "cbord_name": cbord_name
+                        })
+                        break
+
+            return open_halls
+        except Exception as e:
+            print(f"Error fetching open halls: {e}")
+            return []
 
     def init_session(self):
         """Initialize session by loading the main page"""
@@ -81,31 +120,28 @@ class DiningMenuScraper:
             pass
         return None
 
-    def get_today_menu_ids(self, unit_response):
-        """Extract today's menu IDs from unit response"""
+    def get_today_menus(self, unit_response):
+        """Extract today's menu IDs with their meal names from unit response"""
         if not unit_response:
             return []
 
-        menu_ids = []
+        menus = []
         for panel in unit_response.get("panels", []):
             if panel.get("id") == "menuPanel":
                 html = panel.get("html", "")
                 html = html.encode().decode('unicode_escape')
 
                 # Find today's menus (first card should be today)
-                # Look for menuListSelectMenu calls
-                pattern = r"menuListSelectMenu\((\d+)\)"
-                matches = re.findall(pattern, html)
+                # Pattern: menuListSelectMenu(ID);">MealName</a>
+                menu_pattern = r"menuListSelectMenu\((\d+)\)[^>]*>([^<]+)</a>"
+                all_matches = re.findall(menu_pattern, html)
 
-                # Get only the first set of menus (today)
-                # Usually: Breakfast, Lunch, Dinner, Daily
-                if matches:
+                if all_matches:
                     # Find the first date header and get menus until the next date
                     date_pattern = r"card-title[^>]*>([^<]+)</header>"
                     date_matches = re.findall(date_pattern, html)
 
                     if date_matches:
-                        # Get indices of menu IDs
                         first_date_idx = html.find(date_matches[0])
                         if len(date_matches) > 1:
                             second_date_idx = html.find(date_matches[1])
@@ -113,14 +149,22 @@ class DiningMenuScraper:
                         else:
                             first_section = html[first_date_idx:]
 
-                        today_pattern = r"menuListSelectMenu\((\d+)\)"
-                        today_matches = re.findall(today_pattern, first_section)
-                        menu_ids = [int(m) for m in today_matches]
+                        # Get menus from first section only (today)
+                        today_matches = re.findall(menu_pattern, first_section)
+                        for menu_id, meal_name in today_matches:
+                            menus.append({
+                                "id": int(menu_id),
+                                "meal": meal_name.strip()
+                            })
                     else:
                         # Fallback: take first 4 menus
-                        menu_ids = [int(m) for m in matches[:4]]
+                        for menu_id, meal_name in all_matches[:4]:
+                            menus.append({
+                                "id": int(menu_id),
+                                "meal": meal_name.strip()
+                            })
 
-        return menu_ids
+        return menus
 
     def select_menu(self, menu_id):
         """Select a menu and get its items"""
@@ -242,19 +286,40 @@ class DiningMenuScraper:
 
         return nutrition
 
-    def scrape_all(self, halls_filter=None):
-        """Scrape all menus from all dining halls"""
+    def scrape_all(self, halls_filter=None, only_open=True):
+        """Scrape all menus from dining halls
+
+        Args:
+            halls_filter: List of hall names to filter (partial match)
+            only_open: If True, only scrape halls that are currently open
+        """
         print("Initializing session...")
         if not self.init_session():
             print("Failed to initialize session")
             return []
 
-        print("Getting dining units...")
+        # Get open halls if requested
+        open_hall_names = None
+        if only_open:
+            print("Checking which dining halls are open...")
+            open_halls = self.get_open_dining_halls()
+            if open_halls:
+                open_hall_names = [h["cbord_name"] for h in open_halls]
+                print(f"Open dining halls: {', '.join(open_hall_names)}")
+            else:
+                print("Could not determine open halls, falling back to filter list")
+
+        print("Getting dining units from CBORD...")
         units = self.get_units()
         print(f"Found {len(units)} dining units")
 
-        # Filter to main dining halls if specified
-        if halls_filter:
+        # Filter units
+        if open_hall_names:
+            # Use open halls list
+            units = [u for u in units if u["name"] in open_hall_names]
+            print(f"Filtering to {len(units)} open dining halls")
+        elif halls_filter:
+            # Use provided filter
             units = [u for u in units if any(h.lower() in u["name"].lower() for h in halls_filter)]
             print(f"Filtered to {len(units)} dining halls")
 
@@ -269,20 +334,24 @@ class DiningMenuScraper:
                 print(f"  Failed to select unit {unit['name']}")
                 continue
 
-            # Get today's menu IDs
-            menu_ids = self.get_today_menu_ids(unit_resp)
-            if not menu_ids:
+            # Get today's menus with meal names
+            menus = self.get_today_menus(unit_resp)
+            if not menus:
                 print(f"  No menus found for {unit['name']}")
                 continue
 
-            print(f"  Found {len(menu_ids)} menus for today")
+            print(f"  Found {len(menus)} menus for today: {', '.join(m['meal'] for m in menus)}")
 
-            hall_categories = defaultdict(dict)  # Use dict to track by item name
+            # Track items by category, with meal periods
+            hall_categories = defaultdict(dict)  # category -> item_name -> item_data
             seen_items = set()  # Track detail_ids we've already fetched
 
-            for menu_id in menu_ids:
+            for menu in menus:
+                meal_name = menu["meal"]
+                print(f"  Processing {meal_name}...")
+
                 # Select the menu
-                menu_resp = self.select_menu(menu_id)
+                menu_resp = self.select_menu(menu["id"])
                 if not menu_resp:
                     continue
 
@@ -290,29 +359,42 @@ class DiningMenuScraper:
                 items_by_category = self.parse_menu_items(menu_resp)
 
                 for category, items in items_by_category.items():
-                    new_items = [i for i in items if i["detail_id"] not in seen_items]
-                    if new_items:
-                        print(f"    {category}: {len(new_items)} items")
+                    new_items_count = 0
 
-                    for item in new_items:
+                    for item in items:
+                        item_key = item["item"]
+
+                        # If we've already have this item (by name), just add the meal period
+                        if item_key in hall_categories[category]:
+                            existing_meals = hall_categories[category][item_key].get("meal_periods", [])
+                            if meal_name not in existing_meals:
+                                hall_categories[category][item_key]["meal_periods"].append(meal_name)
+                            continue
+
+                        # Skip if we've already fetched nutrition for this detail_id
+                        if item["detail_id"] in seen_items:
+                            continue
+
                         seen_items.add(item["detail_id"])
+                        new_items_count += 1
 
                         # Get nutrition info
                         nutrition = self.get_nutrition(item["detail_id"])
 
                         # Only add items with valid nutrition
                         if nutrition.get("Calories"):
-                            # Use item name as key to deduplicate
-                            item_key = item["item"]
-                            if item_key not in hall_categories[category]:
-                                hall_categories[category][item_key] = {
-                                    "item": item["item"],
-                                    "dietary_info": item["dietary_info"],
-                                    "nutrition": nutrition
-                                }
+                            hall_categories[category][item_key] = {
+                                "item": item["item"],
+                                "dietary_info": item["dietary_info"],
+                                "nutrition": nutrition,
+                                "meal_periods": [meal_name]
+                            }
 
                         # Rate limit
                         time.sleep(0.1)
+
+                    if new_items_count:
+                        print(f"    {category}: {new_items_count} new items")
 
             if hall_categories:
                 all_data.append({
@@ -332,20 +414,23 @@ def main():
     parser = argparse.ArgumentParser(description="Scrape NC State dining menus")
     parser.add_argument("--halls", nargs="+", help="Filter to specific dining halls (partial match)")
     parser.add_argument("--output", default=".", help="Output directory")
+    parser.add_argument("--all", action="store_true", help="Scrape all halls, not just open ones")
     args = parser.parse_args()
 
     scraper = DiningMenuScraper()
 
-    # Default to main dining halls
-    halls_filter = args.halls or [
-        "Fountain Dining Hall",
-        "Clark Dining Hall",
-        "Case Dining Hall",
-        "University Towers Dining Hall",
-        "One Earth Dining Hall"
-    ]
+    # Default to main dining halls if --all is specified but no --halls
+    halls_filter = args.halls
+    if args.all and not halls_filter:
+        halls_filter = [
+            "Fountain Dining Hall",
+            "Clark Dining Hall",
+            "Case Dining Hall",
+            "University Towers Dining Hall",
+            "One Earth Dining Hall"
+        ]
 
-    data = scraper.scrape_all(halls_filter=halls_filter)
+    data = scraper.scrape_all(halls_filter=halls_filter, only_open=not args.all)
 
     if not data:
         print("No data scraped")

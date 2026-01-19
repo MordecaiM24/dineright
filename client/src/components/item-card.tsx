@@ -78,7 +78,7 @@ export default function ItemCard({
         </div>
       </DialogTrigger>
 
-      <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-md max-h-[85vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>{item.item}</DialogTitle>
         </DialogHeader>

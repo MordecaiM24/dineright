@@ -1,10 +1,11 @@
 import { useState, useMemo } from "react";
-import { MenuData, MenuItem } from "@/types";
+import { MenuData, MenuItem, MealPeriod } from "@/types";
 import ItemCard from "@/components/item-card";
 import {
   getAllergenFilters,
   getDietaryFilters,
   getSortOptions,
+  filterItemsByMealPeriod,
 } from "@/utils/menu-utils";
 import {
   Select,
@@ -20,11 +21,13 @@ import { Input } from "@/components/ui/input";
 interface AllItemsViewProps {
   menuData: MenuData;
   isDetailedLoading: boolean;
+  mealPeriod: MealPeriod | "all";
 }
 
 export default function AllItemsView({
   menuData,
   isDetailedLoading,
+  mealPeriod,
 }: AllItemsViewProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [dietaryFilters, setDietaryFilters] = useState<string[]>([]);
@@ -60,6 +63,9 @@ export default function AllItemsView({
   // Filter and sort items
   const filteredItems = useMemo(() => {
     let result = [...allItems];
+
+    // Apply meal period filter first
+    result = filterItemsByMealPeriod(result, mealPeriod);
 
     // Apply search
     if (searchQuery) {
@@ -109,7 +115,7 @@ export default function AllItemsView({
     }
 
     return result;
-  }, [allItems, searchQuery, dietaryFilters, allergenFilters, sortOption]);
+  }, [allItems, searchQuery, dietaryFilters, allergenFilters, sortOption, mealPeriod]);
 
   const toggleDietaryFilter = (filter: string) => {
     setDietaryFilters((prev) =>

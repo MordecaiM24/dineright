@@ -37,3 +37,5 @@ next-env.d.ts
 
 #python
 **/.venv
+
+menu_*.json

@@ -1,7 +1,11 @@
 import { useState } from "react";
-import { MenuData, DiningHall, MenuItem } from "@/types";
+import { MenuData, DiningHall, MenuItem, MealPeriod } from "@/types";
 import ItemCard from "@/components/item-card";
-import { getAllergenFilters, getDietaryFilters } from "@/utils/menu-utils";
+import {
+  getAllergenFilters,
+  getDietaryFilters,
+  filterItemsByMealPeriod,
+} from "@/utils/menu-utils";
 import { Filter } from "lucide-react";
 import {
   Dialog,
@@ -18,11 +22,13 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 interface DiningHallViewProps {
   menuData: MenuData;
   isDetailedLoading: boolean;
+  mealPeriod: MealPeriod | "all";
 }
 
 export default function DiningHallView({
   menuData,
   isDetailedLoading,
+  mealPeriod,
 }: DiningHallViewProps) {
   const [, setSelectedCategory] = useState<string | null>(null);
   const [hallFilters, setHallFilters] = useState<
@@ -65,9 +71,14 @@ export default function DiningHallView({
       category.category.toLowerCase().includes("entree")
     );
     if (homeStyleCategory) {
+      // Filter by meal period first
+      const filteredItems = filterItemsByMealPeriod(
+        homeStyleCategory.items,
+        mealPeriod
+      );
       return {
         category: homeStyleCategory.category,
-        items: homeStyleCategory.items
+        items: filteredItems
           .sort(
             (a: MenuItem, b: MenuItem) =>
               b.nutrition.Calories - a.nutrition.Calories
@@ -75,24 +86,28 @@ export default function DiningHallView({
           .slice(0, 3),
       };
     }
-    // Default to first category with items
-    const firstCategory = hall.menu.find(
-      (category) => category.items.length > 0
-    );
-    if (firstCategory) {
-      return {
-        category: firstCategory.category,
-        items: firstCategory.items.slice(0, 3),
-      };
+    // Default to first category with items after meal period filter
+    for (const category of hall.menu) {
+      const filteredItems = filterItemsByMealPeriod(category.items, mealPeriod);
+      if (filteredItems.length > 0) {
+        return {
+          category: category.category,
+          items: filteredItems.slice(0, 3),
+        };
+      }
     }
     return { category: "", items: [] };
   };
 
-  // Filter items based on dietary and allergen filters
+  // Filter items based on meal period, dietary and allergen filters
   const getFilteredItems = (hallName: string, items: MenuItem[]) => {
     const filters = hallFilters[hallName] || { dietary: [], allergen: [] };
 
-    return items.filter((item) => {
+    // First filter by meal period
+    const mealFiltered = filterItemsByMealPeriod(items, mealPeriod);
+
+    // Then apply dietary and allergen filters
+    return mealFiltered.filter((item) => {
       // Apply dietary filters
       if (
         filters.dietary.length > 0 &&
@@ -179,7 +194,7 @@ export default function DiningHallView({
                       View All Categories
                     </Button>
                   </DialogTrigger>
-                  <DialogContent className="max-w-4xl h-[90vh] overflow-y-auto flex flex-col">
+                  <DialogContent className="max-w-4xl h-[85vh] overflow-y-auto flex flex-col">
                     <DialogHeader>
                       <DialogTitle>{hall.hall}</DialogTitle>
                     </DialogHeader>
@@ -257,95 +272,105 @@ export default function DiningHallView({
 
                       {/* Menu Content */}
                       <div className="flex-1">
-                        <Tabs defaultValue="all">
-                          <TabsList className="flex flex-wrap justify-start mb-4 h-fit">
-                            <TabsTrigger
-                              value="all"
-                              onClick={() => setSelectedCategory("all")}
-                              className="leading-6 font-medium"
-                            >
-                              All Categories
-                            </TabsTrigger>
-                            {hall.menu.map((category, categoryIndex) => (
-                              <TabsTrigger
-                                key={categoryIndex}
-                                value={category.category}
-                                onClick={() =>
-                                  setSelectedCategory(category.category)
-                                }
-                                className="leading-6"
-                              >
-                                {category.category}
-                              </TabsTrigger>
-                            ))}
-                          </TabsList>
+                        {(() => {
+                          // Filter categories to only show those with items for the current meal period
+                          const categoriesWithItems = hall.menu.filter(
+                            (category) =>
+                              filterItemsByMealPeriod(category.items, mealPeriod).length > 0
+                          );
 
-                          {/* All Categories Tab Content */}
-                          <TabsContent value="all" className="mt-0">
-                            {(() => {
-                              const allItems = getAllItems(hall);
-                              const filteredItems = getFilteredItems(
-                                hallName,
-                                allItems
-                              );
+                          return (
+                            <Tabs defaultValue="all">
+                              <TabsList className="flex flex-wrap justify-start mb-4 h-fit">
+                                <TabsTrigger
+                                  value="all"
+                                  onClick={() => setSelectedCategory("all")}
+                                  className="leading-6 font-medium"
+                                >
+                                  All Categories
+                                </TabsTrigger>
+                                {categoriesWithItems.map((category, categoryIndex) => (
+                                  <TabsTrigger
+                                    key={categoryIndex}
+                                    value={category.category}
+                                    onClick={() =>
+                                      setSelectedCategory(category.category)
+                                    }
+                                    className="leading-6"
+                                  >
+                                    {category.category}
+                                  </TabsTrigger>
+                                ))}
+                              </TabsList>
 
-                              return filteredItems.length > 0 ? (
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                  {filteredItems.map((item, itemIndex) => (
-                                    <ItemCard
-                                      key={itemIndex}
-                                      item={item}
-                                      hallName={hall.hall}
-                                      categoryName={item.categoryName || ""}
-                                      isDetailedLoading={isDetailedLoading}
-                                    />
-                                  ))}
-                                </div>
-                              ) : (
-                                <div className="py-8 text-center">
-                                  <p className="text-zinc-500">
-                                    No items match your filter criteria
-                                  </p>
-                                </div>
-                              );
-                            })()}
-                          </TabsContent>
+                              {/* All Categories Tab Content */}
+                              <TabsContent value="all" className="mt-0">
+                                {(() => {
+                                  const allItems = getAllItems(hall);
+                                  const filteredItems = getFilteredItems(
+                                    hallName,
+                                    allItems
+                                  );
 
-                          {hall.menu.map((category, categoryIndex) => {
-                            const filteredItems = getFilteredItems(
-                              hallName,
-                              category.items
-                            );
-
-                            return (
-                              <TabsContent
-                                key={categoryIndex}
-                                value={category.category}
-                                className="mt-0"
-                              >
-                                {filteredItems.length > 0 ? (
-                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    {filteredItems.map((item, itemIndex) => (
-                                      <ItemCard
-                                        key={itemIndex}
-                                        item={item}
-                                        hallName={hall.hall}
-                                        categoryName={category.category}
-                                        isDetailedLoading={isDetailedLoading}
-                                      />
-                                    ))}
-                                  </div>
-                                ) : (
-                                  <div className="py-8 text-center">
-                                    <p className="text-zinc-500">
-                                      No items match your filter criteria
-                                    </p>
-                                  </div>
-                                )}
+                                  return filteredItems.length > 0 ? (
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                      {filteredItems.map((item, itemIndex) => (
+                                        <ItemCard
+                                          key={itemIndex}
+                                          item={item}
+                                          hallName={hall.hall}
+                                          categoryName={item.categoryName || ""}
+                                          isDetailedLoading={isDetailedLoading}
+                                        />
+                                      ))}
+                                    </div>
+                                  ) : (
+                                    <div className="py-8 text-center">
+                                      <p className="text-zinc-500">
+                                        No items match your filter criteria
+                                      </p>
+                                    </div>
+                                  );
+                                })()}
                               </TabsContent>
-                            );
-                          })}
-                        </Tabs>
+
+                              {categoriesWithItems.map((category, categoryIndex) => {
+                                const filteredItems = getFilteredItems(
+                                  hallName,
+                                  category.items
+                                );
+
+                                return (
+                                  <TabsContent
+                                    key={categoryIndex}
+                                    value={category.category}
+                                    className="mt-0"
+                                  >
+                                    {filteredItems.length > 0 ? (
+                                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        {filteredItems.map((item, itemIndex) => (
+                                          <ItemCard
+                                            key={itemIndex}
+                                            item={item}
+                                            hallName={hall.hall}
+                                            categoryName={category.category}
+                                            isDetailedLoading={isDetailedLoading}
+                                          />
+                                        ))}
+                                      </div>
+                                    ) : (
+                                      <div className="py-8 text-center">
+                                        <p className="text-zinc-500">
+                                          No items match your filter criteria
+                                        </p>
+                                      </div>
+                                    )}
+                                  </TabsContent>
+                                );
+                              })}
+                            </Tabs>
+                          );
+                        })()}
                       </div>
                     </div>
                   </DialogContent>
