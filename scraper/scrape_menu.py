@@ -307,7 +307,8 @@ class DiningMenuScraper:
                 open_hall_names = [h["cbord_name"] for h in open_halls]
                 print(f"Open dining halls: {', '.join(open_hall_names)}")
             else:
-                print("Could not determine open halls, falling back to filter list")
+                print("No dining halls are currently open")
+                return []
 
         print("Getting dining units from CBORD...")
         units = self.get_units()
