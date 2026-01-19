@@ -435,9 +435,8 @@ def main():
 
     if not data:
         print("No data scraped")
-        return
 
-    # Save full data
+    # Save full data (even if empty)
     full_path = f"{args.output}/menu_full.json"
     with open(full_path, "w") as f:
         json.dump(data, f, indent=2)
